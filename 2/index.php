@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="/enstyle.css" /><!-- InstanceEndEditable -->
 <style>.div1 {background: url(banner.jpg) center no-repeat; background-size: 100% 100%; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');}</style>
 <script src="/scripts/vue/vue.js"></script>
-<script src="/scripts/vue/vueslideshow.js"></script>
+<script src="/scripts/vue/vueslide.js"></script>
 <script src="/scripts/jquery/jquery.js"></script>
 <script src="/scripts/jquery/jquerycycle.js"></script>
 <script src="/scripts/jquery/jqueryslide.js"></script>
@@ -23,11 +23,11 @@
 <script src="/scripts/serviceqq/2.js"></script>
 <script src="/scripts/share/share.js"></script></head><body>
 
-<div class="div1"><img class="left01" src="/image/catalog/logo/logo/1.png"></div>
+<div class="div1"><!-- InstanceBeginEditable name="1" --><img src="/image/catalog/logo/logo/1.png"><!-- InstanceEndEditable --></div>
 <div class="div2" id="1"><script>$("#1").load("1.php");</script></div>
 
-<div class="div3" id="slide"><!-- InstanceBeginEditable name="2" -->
-<script>new Vue().VueSlideShow("#slide", {images: 
+<div class="div3 slide"><!-- InstanceBeginEditable name="2" -->
+<script>new Vue().VueSlideShow(".slide", {images: 
 [{src: "/image/catalog/product/mobileaccessories/1.jpg", href: "/www/product/mobileaccessories/charger"},
 {src: "/image/catalog/product/mobileaccessories/2.jpg", href: "/www/product/mobileaccessories/charger"},
 {src: "/image/catalog/product/mobileaccessories/3.jpg", href: "/www/product/mobileaccessories/charger"},
@@ -63,8 +63,8 @@
 {src: "/image/catalog/product/mobileaccessories/33.jpg", href: "/www/product/mobileaccessories/glassfilm"}],
 config: {effect: "slide", autoplay: 2000,}});</script><!-- InstanceEndEditable --></div>
 
-<div class="div3" id="fade"><!-- InstanceBeginEditable name="3" -->
-<script>new Vue().VueSlideShow("#fade", {images: 
+<div class="div3 fade"><!-- InstanceBeginEditable name="3" -->
+<script>new Vue().VueSlideShow(".fade", {images: 
 [{src: "/image/catalog/product/mobileaccessories/34.jpg", href: "/www/product/mobileaccessories/cable/typec"},
 {src: "/image/catalog/product/mobileaccessories/35.jpg", href: "/www/product/mobileaccessories/cable/typec"},
 {src: "/image/catalog/product/mobileaccessories/36.jpg", href: "/www/product/mobileaccessories/cable/typec"},
@@ -122,38 +122,75 @@ cube_l = "/image/catalog/product/mobileaccessories/cable/typec/1/1.jpg";
 cube_u = "/image/catalog/product/mobileaccessories/convertor/otg/2/1.jpg";
 cube_d = "/image/catalog/product/mobileaccessories/glassfilm/iphone/3/1.jpg";</script><!-- InstanceEndEditable --></div>
 
-<div class="div3" id="vr"><!-- InstanceBeginEditable name="6" -->
-<script>new Vue().VueSlideShow("#vr", {images: 
-[{src: "/image/catalog/product/mobileaccessories/charger/1/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/charger/2/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/charger/3/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/charger/4/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/charger/5/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/charger/6/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/charger/7/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/charger/8/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/charger/9/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/charger/10/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/charger/11/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/charger/12/1.jpg", href: "/www/product/mobileaccessories/charger"},
-{src: "/image/catalog/product/mobileaccessories/plug/1/1.jpg", href: "/www/product/mobileaccessories/plug"},
-{src: "/image/catalog/product/wirelessnetwork/wirelessrouter/tplink/xdr3230/1.jpg", href: "/www/product//wirelessnetwork/wirelessrouter/tplink/xdr3230"},
-{src: "/image/catalog/product/mobileaccessories/cable/iphone/1/1.jpg", href: "/www/product/mobileaccessories/cable"},
-{src: "/image/catalog/product/mobileaccessories/cable/iphone/2/1.jpg", href: "/www/product/mobileaccessories/cable"},
-{src: "/image/catalog/product/mobileaccessories/cable/android/1/1.jpg", href: "/www/product/mobileaccessories/cable"},
-{src: "/image/catalog/product/mobileaccessories/cable/typec/1/1.jpg", href: "/www/product/mobileaccessories/cable"},
-{src: "/image/catalog/product/mobileaccessories/cable/hdmi/1/1.jpg", href: "/www/product/mobileaccessories/cable/hdmi/1"},
-{src: "/image/catalog/product/mobileaccessories/convertor/hdmi/1/1.jpg", href: "/www/product/mobileaccessories/convertor/hdmi"},
-{src: "/image/catalog/product/mobileaccessories/convertor/otg/1/1.jpg", href: "/www/product/mobileaccessories/convertor/otg"},
-{src: "/image/catalog/product/mobileaccessories/convertor/otg/2/1.jpg", href: "/www/product/mobileaccessories/convertor/otg"},
-{src: "/image/catalog/product/mobileaccessories/convertor/otg/3/1.jpg", href: "/www/product/mobileaccessories/convertor/otg"},
-{src: "/image/catalog/product/mobileaccessories/convertor/otg/4/1.jpg", href: "/www/product/mobileaccessories/convertor/otg"},
-{src: "/image/catalog/product/memorycard/udisk/kingston/1/1.jpg", href: "/www/product/memorycard/udisk/kingston"},
-{src: "/image/catalog/product/mobileaccessories/glassfilm/iphone/1/1.jpg", href: "/www/product/mobileaccessories/glassfilm"},
-{src: "/image/catalog/product/mobileaccessories/glassfilm/iphone/2/1.jpg", href: "/www/product/mobileaccessories/glassfilm"},
-{src: "/image/catalog/product/mobileaccessories/glassfilm/iphone/3/1.jpg", href: "/www/product/mobileaccessories/glassfilm"},
-{src: "/image/catalog/product/lighter/1/1.jpg", href: "/www/product/lighter"},
-{src: "/image/catalog/product/lighter/3/1.jpg", href: "/www/product/lighter"}],
+<div class="div3 vr"><!-- InstanceBeginEditable name="6" -->
+<script>new Vue().VueSlideShow(".vr", {images: 
+[{src: "/image/catalog/product/mobileaccessories/1.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/2.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/3.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/4.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/5.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/6.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/7.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/8.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/9.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/10.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/11.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/12.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/13.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/14.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/15.jpg", href: "/www/product/mobileaccessories/charger"},
+{src: "/image/catalog/product/mobileaccessories/16.jpg", href: "/www/product/mobileaccessories/plug"},
+{src: "/image/catalog/product/mobileaccessories/17.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/18.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/19.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/20.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/21.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/22.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/23.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/24.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/25.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/26.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/27.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/28.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/29.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/30.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/31.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/32.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/33.jpg", href: "/www/product/mobileaccessories/glassfilm"},
+{src: "/image/catalog/product/mobileaccessories/34.jpg", href: "/www/product/mobileaccessories/cable/typec"},
+{src: "/image/catalog/product/mobileaccessories/35.jpg", href: "/www/product/mobileaccessories/cable/typec"},
+{src: "/image/catalog/product/mobileaccessories/36.jpg", href: "/www/product/mobileaccessories/cable/typec"},
+{src: "/image/catalog/product/mobileaccessories/37.jpg", href: "/www/product/mobileaccessories/cable/typec"},
+{src: "/image/catalog/product/mobileaccessories/38.jpg", href: "/www/product/mobileaccessories/cable/typec"},
+{src: "/image/catalog/product/mobileaccessories/39.jpg", href: "/www/product/mobileaccessories/cable/typec"},
+{src: "/image/catalog/product/mobileaccessories/40.jpg", href: "/www/product/mobileaccessories/cable/typec"},
+{src: "/image/catalog/product/mobileaccessories/41.jpg", href: "/www/product/mobileaccessories/cable/typec"},
+{src: "/image/catalog/product/mobileaccessories/42.jpg", href: "/www/product/mobileaccessories/cable/typec"},
+{src: "/image/catalog/product/mobileaccessories/43.jpg", href: "/www/product/mobileaccessories/cable/iphone"},
+{src: "/image/catalog/product/mobileaccessories/44.jpg", href: "/www/product/mobileaccessories/cable/iphone"},
+{src: "/image/catalog/product/mobileaccessories/45.jpg", href: "/www/product/mobileaccessories/cable/iphone"},
+{src: "/image/catalog/product/mobileaccessories/46.jpg", href: "/www/product/mobileaccessories/cable/iphone"},
+{src: "/image/catalog/product/mobileaccessories/47.jpg", href: "/www/product/mobileaccessories/cable/iphone"},
+{src: "/image/catalog/product/mobileaccessories/48.jpg", href: "/www/product/mobileaccessories/cable/iphone"},
+{src: "/image/catalog/product/mobileaccessories/49.jpg", href: "/www/product/mobileaccessories/cable/iphone"},
+{src: "/image/catalog/product/mobileaccessories/50.jpg", href: "/www/product/mobileaccessories/cable/android"},
+{src: "/image/catalog/product/mobileaccessories/51.jpg", href: "/www/product/mobileaccessories/cable/android"},
+{src: "/image/catalog/product/mobileaccessories/52.jpg", href: "/www/product/mobileaccessories/cable/android"},
+{src: "/image/catalog/product/mobileaccessories/53.jpg", href: "/www/product/mobileaccessories/cable/android"},
+{src: "/image/catalog/product/mobileaccessories/54.jpg", href: "/www/product/mobileaccessories/cable/android"},
+{src: "/image/catalog/product/mobileaccessories/55.jpg", href: "/www/product/mobileaccessories/cable/android"},
+{src: "/image/catalog/product/mobileaccessories/56.jpg", href: "/www/product/mobileaccessories/cable/hdmi"},
+{src: "/image/catalog/product/mobileaccessories/57.jpg", href: "/www/product/mobileaccessories/cable/hdmi"},
+{src: "/image/catalog/product/mobileaccessories/58.jpg", href: "/www/product/mobileaccessories/convertor/hdmi"},
+{src: "/image/catalog/product/mobileaccessories/59.jpg", href: "/www/product/mobileaccessories/convertor/otg"},
+{src: "/image/catalog/product/mobileaccessories/60.jpg", href: "/www/product/mobileaccessories/convertor/otg"},
+{src: "/image/catalog/product/mobileaccessories/61.jpg", href: "/www/product/mobileaccessories/convertor/otg"},
+{src: "/image/catalog/product/mobileaccessories/62.jpg", href: "/www/product/mobileaccessories/convertor/otg"},
+{src: "/image/catalog/product/mobileaccessories/63.jpg", href: "/www/product/memorycard/udisk/kingston"},
+{src: "/image/catalog/product/wirelessnetwork/1.jpg", href: "/www/product/mobileaccessories/wirelessnetwork/wirelessrouter/tplink/wdr8690"},
+{src: "/image/catalog/product/wirelessnetwork/2.jpg", href: "/www/product/mobileaccessories/wirelessnetwork/wirelessrouter/tplink/xdr3230"},
+{src: "/image/catalog/product/lighter/1.jpg", href: "/www/product/lighter"},
+{src: "/image/catalog/product/lighter/2.jpg", href: "/www/product/lighter"},],
 config: {effect: "slide", autoplay: 2000,}});</script><!-- InstanceEndEditable --></div>
 
 <div class="div4"><!-- InstanceBeginEditable name="7" -->
