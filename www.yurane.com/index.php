@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="/cnstyle.css" /><!-- InstanceEndEditable -->
 <style>.div1 {background: url(banner.jpg) center no-repeat; background-size: 100% 100%; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');}</style>
 <script src="/scripts/vue/vue.js"></script>
-<script src="/scripts/vue/vueslideshow.js"></script>
+<script src="/scripts/vue/vueslide.js"></script>
 <script src="/scripts/jquery/jquery.js"></script>
 <script src="/scripts/jquery/jquerycycle.js"></script>
 <script src="/scripts/jquery/jqueryslide.js"></script>
@@ -22,11 +22,11 @@
 <script src="/scripts/serviceqq/2.js"></script>
 <script src="/scripts/share/share.js"></script></head><body>
 
-<div class="div1"><img class="left01" src="/image/catalog/logo/logo/1.png"></div>
+<div class="div1"><!-- InstanceBeginEditable name="1" --><img src="/image/catalog/logo/logo/1.png"><!-- InstanceEndEditable --></div>
 <div class="div2" id="1"><script>$("#1").load("1.php");</script></div>
 
-<div class="div3" id="slide"><!-- InstanceBeginEditable name="2" -->
-<script>new Vue().VueSlideShow("#slide", {images: 
+<div class="div3 slide"><!-- InstanceBeginEditable name="2" -->
+<script>new Vue().VueSlideShow(".slide", {images: 
 [{src: "/image/catalog/design/1.jpg", href: "#1"},
 {src: "/image/catalog/design/2.jpg", href: "#2"},
 {src: "/image/catalog/design/3.jpg", href: "#3"},
@@ -39,8 +39,8 @@
 {src: "/image/catalog/design/10.jpg", href: "#10"},],
 config: {effect: "slide", autoplay: 2000,}});</script><!-- InstanceEndEditable --></div>
 
-<div class="div3" id="fade"><!-- InstanceBeginEditable name="3" -->
-<script>new Vue().VueSlideShow("#fade", {images: 
+<div class="div3 fade"><!-- InstanceBeginEditable name="3" -->
+<script>new Vue().VueSlideShow(".fade", {images: 
 [{src: "/image/catalog/design/11.jpg", href: "#11"},
 {src: "/image/catalog/design/12.jpg", href: "#12"},
 {src: "/image/catalog/design/13.jpg", href: "#13"},
@@ -75,8 +75,8 @@ cube_l = "/image/catalog/product/mobileaccessories/cable/typec/1/1.jpg";
 cube_u = "/image/catalog/product/mobileaccessories/otgconvertor/2/1.jpg";
 cube_d = "/image/catalog/product/mobileaccessories/glassfilm/iphone/3/1.jpg";</script><!-- InstanceEndEditable --></div>
 
-<div class="div3" id="vr"><!-- InstanceBeginEditable name="6" -->
-<script>new Vue().VueSlideShow("#vr", {images: 
+<div class="div3 vr"><!-- InstanceBeginEditable name="6" -->
+<script>new Vue().VueSlideShow(".vr", {images: 
 [{src: "/image/catalog/design/1.jpg", href: "#1"},
 {src: "/image/catalog/design/2.jpg", href: "#2"},
 {src: "/image/catalog/design/3.jpg", href: "#3"},
@@ -100,7 +100,7 @@ cube_d = "/image/catalog/product/mobileaccessories/glassfilm/iphone/3/1.jpg";</s
 config: {effect: "slide", autoplay: 2000,}});</script><!-- InstanceEndEditable --></div>
 
 <div class="div4"><!-- InstanceBeginEditable name="7" -->
-<script>new Vue().VueSlideShow("#fade", {images: 
+<script>new Vue().VueSlideShow(".fade", {images: 
 [{src: "/image/catalog/product/mobileaccessories/34.jpg", href: "/www/product/mobileaccessories/cable/typec"},
 {src: "/image/catalog/product/mobileaccessories/35.jpg", href: "/www/product/mobileaccessories/cable/typec"},
 {src: "/image/catalog/product/mobileaccessories/36.jpg", href: "/www/product/mobileaccessories/cable/typec"},
