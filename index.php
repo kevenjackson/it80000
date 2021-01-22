@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/enstyle.css" /><!-- InstanceEndEditable -->
 <style>.div1 {background: url(banner.jpg) center no-repeat; background-size: 100% 100%; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');}</style>
 <script src="/scripts/vue/vue.js"></script>
-<script src="/scripts/vue/vueslideshow.js"></script>
+<script src="/scripts/vue/vueslide.js"></script>
 <script src="/scripts/jquery/jquery.js"></script>
 <script src="/scripts/jquery/jquerycycle.js"></script>
 <script src="/scripts/jquery/jqueryslide.js"></script>
@@ -24,11 +24,11 @@
 <script src="/scripts/serviceqq/2.js"></script>
 <script src="/scripts/share/share.js"></script></head><body>
 
-<div class="div1"><img class="left01" src="/image/catalog/logo/logo/1.png"></div>
+<div class="div1"><!-- InstanceBeginEditable name="1" --><img src="/image/catalog/logo/logo/1.png"><!-- InstanceEndEditable --></div>
 <div class="div2" id="1"><script>$("#1").load("1.php");</script></div>
 
-<div class="div3" id="slide"><!-- InstanceBeginEditable name="2" -->
-<script>new Vue().VueSlideShow("#slide", {images: 
+<div class="div3 slide"><!-- InstanceBeginEditable name="2" -->
+<script>new Vue().VueSlideShow(".slide", {images: 
 [{src: "/image/catalog/product/pcsoftware/1.jpg", href: "/www/product/pcsoftware/kaspersky/kav"},
 {src: "/image/catalog/product/pcsoftware/2.jpg", href: "/www/product/pcsoftware/kaspersky/kav"},
 {src: "/image/catalog/product/pcsoftware/3.jpg", href: "/www/product/pcsoftware/kaspersky/kis"},
@@ -42,23 +42,23 @@
 {src: "/image/catalog/product/pcsoftware/11.jpg", href: "/www/product/pcsoftware/kaspersky/kes"},
 {src: "/image/catalog/product/pcsoftware/12.jpg", href: "/www/product/pcsoftware/kaspersky/kms"},
 {src: "/image/catalog/product/pcsoftware/13.jpg", href: "/www/product/pcsoftware/kaspersky/ksc"},
-{src: "/image/catalog/product/pcsoftware/14.jpg", href: "/www/product/pcsoftware/kaspersky/eav"},
-{src: "/image/catalog/product/pcsoftware/15.jpg", href: "/www/product/pcsoftware/kaspersky/eav"},
-{src: "/image/catalog/product/pcsoftware/16.jpg", href: "/www/product/pcsoftware/kaspersky/eav"},
-{src: "/image/catalog/product/pcsoftware/17.jpg", href: "/www/product/pcsoftware/kaspersky/ess"},
-{src: "/image/catalog/product/pcsoftware/18.jpg", href: "/www/product/pcsoftware/kaspersky/ess"},
-{src: "/image/catalog/product/pcsoftware/19.jpg", href: "/www/product/pcsoftware/kaspersky/ess"},
-{src: "/image/catalog/product/pcsoftware/20.jpg", href: "/www/product/pcsoftware/kaspersky/essp"},
-{src: "/image/catalog/product/pcsoftware/21.jpg", href: "/www/product/pcsoftware/kaspersky/essp"},
-{src: "/image/catalog/product/pcsoftware/22.jpg", href: "/www/product/pcsoftware/kaspersky/emds"},
-{src: "/image/catalog/product/pcsoftware/23.jpg", href: "/www/product/pcsoftware/kaspersky/emsd"},
-{src: "/image/catalog/product/pcsoftware/24.jpg", href: "/www/product/pcsoftware/kaspersky/eis"},
-{src: "/image/catalog/product/pcsoftware/25.jpg", href: "/www/product/pcsoftware/kaspersky/eis"},
-{src: "/image/catalog/product/pcsoftware/26.jpg", href: "/www/product/pcsoftware/kaspersky/ems"}],
+{src: "/image/catalog/product/pcsoftware/14.jpg", href: "/www/product/pcsoftware/eset/eav"},
+{src: "/image/catalog/product/pcsoftware/15.jpg", href: "/www/product/pcsoftware/eset/eav"},
+{src: "/image/catalog/product/pcsoftware/16.jpg", href: "/www/product/pcsoftware/eset/eav"},
+{src: "/image/catalog/product/pcsoftware/17.jpg", href: "/www/product/pcsoftware/eset/ess"},
+{src: "/image/catalog/product/pcsoftware/18.jpg", href: "/www/product/pcsoftware/eset/ess"},
+{src: "/image/catalog/product/pcsoftware/19.jpg", href: "/www/product/pcsoftware/eset/ess"},
+{src: "/image/catalog/product/pcsoftware/20.jpg", href: "/www/product/pcsoftware/eset/essp"},
+{src: "/image/catalog/product/pcsoftware/21.jpg", href: "/www/product/pcsoftware/eset/essp"},
+{src: "/image/catalog/product/pcsoftware/22.jpg", href: "/www/product/pcsoftware/eset/emds"},
+{src: "/image/catalog/product/pcsoftware/23.jpg", href: "/www/product/pcsoftware/eset/emsd"},
+{src: "/image/catalog/product/pcsoftware/24.jpg", href: "/www/product/pcsoftware/eset/eis"},
+{src: "/image/catalog/product/pcsoftware/25.jpg", href: "/www/product/pcsoftware/eset/eis"},
+{src: "/image/catalog/product/pcsoftware/26.jpg", href: "/www/product/pcsoftware/eset/ems"}],
 config: {effect: "slide", autoplay: 2000,}});</script><!-- InstanceEndEditable --></div>
 
-<div class="div3" id="fade"><!-- InstanceBeginEditable name="3" -->
-<script>new Vue().VueSlideShow("#fade", {images: 
+<div class="div3 fade"><!-- InstanceBeginEditable name="3" -->
+<script>new Vue().VueSlideShow(".fade", {images: 
 [{src: "/image/catalog/product/pcsoftware/27.jpg", href: "/www/product/pcsoftware/avg"},
 {src: "/image/catalog/product/pcsoftware/28.jpg", href: "/www/product/pcsoftware/avg"},
 {src: "/image/catalog/product/pcsoftware/29.jpg", href: "/www/product/pcsoftware/bitdefend"},
@@ -109,25 +109,60 @@ cube_l = "/image/catalog/product/pcsoftware/5.jpg";
 cube_u = "/image/catalog/product/pcsoftware/6.jpg";
 cube_d = "/image/catalog/product/pcsoftware/7.jpg";</script><!-- InstanceEndEditable --></div>
 
-<div class="div3" id="vr"><!-- InstanceBeginEditable name="6" -->
-<script>new Vue().VueSlideShow("#vr", {images: 
-[{src: "/image/catalog/product/pcsoftware/kaspersky/kav/1.gif", href: "/www/product/pcsoftware/kaspersky/kav"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kav/2.gif", href: "/www/product/pcsoftware/kaspersky/kav"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kav/3.gif", href: "/www/product/pcsoftware/kaspersky/kis"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kis/1.gif", href: "/www/product/pcsoftware/kaspersky/kav"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kis/2.gif", href: "/www/product/pcsoftware/kaspersky/kav"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kis/3.gif", href: "/www/product/pcsoftware/kaspersky/kis"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kis/4.gif", href: "/www/product/pcsoftware/kaspersky/kav"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kis/5.gif", href: "/www/product/pcsoftware/kaspersky/kav"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kts/1.gif", href: "/www/product/pcsoftware/kaspersky/kis"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kts/2.gif", href: "/www/product/pcsoftware/kaspersky/kav"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kts/3.gif", href: "/www/product/pcsoftware/kaspersky/kav"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/1.gif", href: "/www/product/pcsoftware/kaspersky/kis"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/2.gif", href: "/www/product/pcsoftware/kaspersky/kis"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/3.gif", href: "/www/product/pcsoftware/kaspersky/kis"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kes/1.gif", href: "/www/product/pcsoftware/kaspersky/kis"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kms/1.gif", href: "/www/product/pcsoftware/kaspersky/kis"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/ksc/1.gif", href: "/www/product/pcsoftware/kaspersky/kis"},],
+<div class="div3 vr"><!-- InstanceBeginEditable name="6" -->
+<script>new Vue().VueSlideShow(".vr", {images: 
+[{src: "/image/catalog/product/pcsoftware/1.jpg", href: "/www/product/pcsoftware/kaspersky/kav"},
+{src: "/image/catalog/product/pcsoftware/2.jpg", href: "/www/product/pcsoftware/kaspersky/kav"},
+{src: "/image/catalog/product/pcsoftware/3.jpg", href: "/www/product/pcsoftware/kaspersky/kis"},
+{src: "/image/catalog/product/pcsoftware/4.jpg", href: "/www/product/pcsoftware/kaspersky/kis"},
+{src: "/image/catalog/product/pcsoftware/5.jpg", href: "/www/product/pcsoftware/kaspersky/kis"},
+{src: "/image/catalog/product/pcsoftware/6.jpg", href: "/www/product/pcsoftware/kaspersky/kts"},
+{src: "/image/catalog/product/pcsoftware/7.jpg", href: "/www/product/pcsoftware/kaspersky/kts"},
+{src: "/image/catalog/product/pcsoftware/8.jpg", href: "/www/product/pcsoftware/kaspersky/kts"},
+{src: "/image/catalog/product/pcsoftware/9.jpg", href: "/www/product/pcsoftware/kaspersky/ksos"},
+{src: "/image/catalog/product/pcsoftware/10.jpg", href: "/www/product/pcsoftware/kaspersky/ksos"},
+{src: "/image/catalog/product/pcsoftware/11.jpg", href: "/www/product/pcsoftware/kaspersky/kes"},
+{src: "/image/catalog/product/pcsoftware/12.jpg", href: "/www/product/pcsoftware/kaspersky/kms"},
+{src: "/image/catalog/product/pcsoftware/13.jpg", href: "/www/product/pcsoftware/kaspersky/ksc"},
+{src: "/image/catalog/product/pcsoftware/14.jpg", href: "/www/product/pcsoftware/eset/eav"},
+{src: "/image/catalog/product/pcsoftware/15.jpg", href: "/www/product/pcsoftware/eset/eav"},
+{src: "/image/catalog/product/pcsoftware/16.jpg", href: "/www/product/pcsoftware/eset/eav"},
+{src: "/image/catalog/product/pcsoftware/17.jpg", href: "/www/product/pcsoftware/eset/ess"},
+{src: "/image/catalog/product/pcsoftware/18.jpg", href: "/www/product/pcsoftware/eset/ess"},
+{src: "/image/catalog/product/pcsoftware/19.jpg", href: "/www/product/pcsoftware/eset/ess"},
+{src: "/image/catalog/product/pcsoftware/20.jpg", href: "/www/product/pcsoftware/eset/essp"},
+{src: "/image/catalog/product/pcsoftware/21.jpg", href: "/www/product/pcsoftware/eset/essp"},
+{src: "/image/catalog/product/pcsoftware/22.jpg", href: "/www/product/pcsoftware/eset/emds"},
+{src: "/image/catalog/product/pcsoftware/23.jpg", href: "/www/product/pcsoftware/eset/emsd"},
+{src: "/image/catalog/product/pcsoftware/24.jpg", href: "/www/product/pcsoftware/eset/eis"},
+{src: "/image/catalog/product/pcsoftware/25.jpg", href: "/www/product/pcsoftware/eset/eis"},
+{src: "/image/catalog/product/pcsoftware/26.jpg", href: "/www/product/pcsoftware/eset/ems"},
+{src: "/image/catalog/product/pcsoftware/27.jpg", href: "/www/product/pcsoftware/avg"},
+{src: "/image/catalog/product/pcsoftware/28.jpg", href: "/www/product/pcsoftware/avg"},
+{src: "/image/catalog/product/pcsoftware/29.jpg", href: "/www/product/pcsoftware/bitdefend"},
+{src: "/image/catalog/product/pcsoftware/30.jpg", href: "/www/product/pcsoftware/bitdefend"},
+{src: "/image/catalog/product/pcsoftware/31.jpg", href: "/www/product/pcsoftware/macfee"},
+{src: "/image/catalog/product/pcsoftware/32.jpg", href: "/www/product/pcsoftware/windows/win7"},
+{src: "/image/catalog/product/pcsoftware/33.jpg", href: "/www/product/pcsoftware/windows/win8"},
+{src: "/image/catalog/product/pcsoftware/34.jpg", href: "/www/product/pcsoftware/windows/win10"},
+{src: "/image/catalog/product/pcsoftware/35.jpg", href: "/www/product/pcsoftware/office/office365"},
+{src: "/image/catalog/product/pcsoftware/36.jpg", href: "/www/product/pcsoftware/office/office365"},
+{src: "/image/catalog/product/pcsoftware/37.jpg", href: "/www/product/pcsoftware/office/office365"},
+{src: "/image/catalog/product/pcsoftware/38.jpg", href: "/www/product/pcsoftware/office/officehs"},
+{src: "/image/catalog/product/pcsoftware/39.jpg", href: "/www/product/pcsoftware/office/officepro"},
+{src: "/image/catalog/product/pcsoftware/40.jpg", href: "/www/product/pcsoftware/office/officepro"},
+{src: "/image/catalog/product/pcsoftware/41.jpg", href: "/www/product/pcsoftware/office/officeproplus"},
+{src: "/image/catalog/product/pcsoftware/42.jpg", href: "/www/product/pcsoftware/office/officeproplus"},
+{src: "/image/catalog/product/pcsoftware/43.jpg", href: "/www/product/pcsoftware/coreldraw"},
+{src: "/image/catalog/product/pcsoftware/44.jpg", href: "/www/product/pcsoftware/photoshop"},
+{src: "/image/catalog/product/pcsoftware/45.jpg", href: "/www/product/pcsoftware/photoshop"},
+{src: "/image/catalog/product/pcsoftware/46.jpg", href: "/www/product/pcsoftware/fireworks"},
+{src: "/image/catalog/product/pcsoftware/47.jpg", href: "/www/product/pcsoftware/autocad"},
+{src: "/image/catalog/product/pcsoftware/48.jpg", href: "/www/product/pcsoftware/3dmax"},
+{src: "/image/catalog/product/pcsoftware/49.jpg", href: "/www/product/pcsoftware/imagebeautyshow"},
+{src: "/image/catalog/product/pcsoftware/50.jpg", href: "/www/product/pcsoftware/videoplayer"},
+{src: "/image/catalog/product/pcsoftware/51.jpg", href: "/www/product/pcsoftware/internetdownloadmanager"},
+{src: "/image/catalog/product/pcsoftware/52.jpg", href: "/www/product/pcsoftware/intelligentsciencecalculator"}],
 config: {effect: "slide", autoplay: 2000,}});</script><!-- InstanceEndEditable --></div>
 
 <div class="div4"><!-- InstanceBeginEditable name="7" -->

@@ -58,11 +58,11 @@ a {text-decoration: none;}
 .righttop   {border-top: 1px solid #000; border-right: 1px solid #000;}
 
 /*统一集中定义这些这些宽度和高度为自动或100%全宽的div样式,超出部份就自动隐藏起来*/
-html, body, .div2 ul, .div4 img, .div5 ul, .div5 img, .div6 ul, .div7 ul, .div8 ul, .div9 ul, .div9 dl dd ul, .ul100, .ul100 li, .ul100 li img, .productphoto img, .marqueeup, .marqueeup img, dt img, .hr, .hr20, .hr50, .rotate, .watermark, #canvas {width: 100%;}
+html, body, .div2 ul, .div3 img, .div4 img, .div5 ul, .div5 img, .div6 ul, .div7 ul, .div8 ul, .div9 ul, .div9 dl dd ul, .ul100, .ul100 li, .ul100 li img, .productphoto img, .marqueeup, .marqueeup img, dt img, .hr, .hr20, .hr50, .rotate, .watermark, #canvas {width: 100%;}
 
 .div2 ul li, .div2 ul li ul, .div2 ul li ul li, .div4 ul, .div8 ul li ul, .div8 ul li ul li, .div12 img, .img100 img, .buy img, .cart img, h1, h2 {width: auto;}
 
-.div8 ul li, .buy img, .cart img, .watermark {height: 100%;}
+.div3, .div8 ul li, .buy img, .cart img, .watermark {height: 100%;}
 
 html, body, .div2 ul, .div2 ul li, .div2 ul li img, .div5, .div5 ul, .div5 ul li, .div6, .div6 ul, .div6 ul li, .div7, .div7 ul, .div6 ul li, .div8, .div9, .div9 ul, .div9 dl, .div9 dl dt, .div9 dl dd, .div11, .div12, .div13, h1, h2 {height: auto;}
 
@@ -326,7 +326,7 @@ html, body, .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div1
 .w75 {width: 74%;}
 .div5, .div6 {width: 99.8%;}
 .div3, .div4, .div9 {width: 99.9%;}
-.w100, .div1, .div2, .div11, .div12 {width: 100%;}
+.div1, .div2, .div11, .div12, .w100 {width: 100%;}
 .div2 ul li, .div4 ul li, .div5 ul li, .div6 ul li, .div7 ul li, .div8 ul li, .div9 ul li {word-spacing: 0px; letter-spacing: 0px;}
 
 /*定义一些不同的高度值*/
@@ -482,7 +482,7 @@ html, body, .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div1
 .height19500 {height: 19500px;}
 .height20000 {height: 20000px;}
 .div8 ul li div {height: 51%;}
-.div3 {min-height: 567px; max-height: 900px;}
+.div3, .div3 img {min-height: 608px; max-height: 1080px;}
 
 /*定义全网站通用的具有相同外边距margin值的样式集*/
 html, body, .div1, .div2, .div2 ul, .div2 ul li ul, .div2 ul li ul li, .div3, .div4, .div4 ul, .div4 ul li, .div4 img, .div5, .div5 ul, .div5 ul li, .div5 dl, .div6, .div6 ul, .div6 ul li, .div6 dl, .div7 ul, .div7 ul li, .div7 dl, .div8 ul li ul, .div8 ul li ul li, .div9, .div9 ul, .div9 dl dd ul, .div12, .marqueeup, dt, dd, .margin0, .watermark {margin: 0px;}
@@ -921,12 +921,12 @@ html, body, .div1, .div2 ul, .div2 ul li ul, .div4 ul, .div4 ul li, .div5 ul, .d
 .left1207 {margin-left: 1207px;}
 .left1209 {margin-left: 1209px;}
 .left1651 {margin-left: 1651px;}
-.left01   {margin-left: 2.5%;}
+.div1 img {margin-left: 2.5%;}
 .top12    {margin-top: 12px;}
 
 /*定义首页的第3个大方框,这个方框里面引用产品轮播展示图,为了在div3里面实现产品轮播效果及在div12,div8的菜单栏里面实现网页弹出菜单效果,需要分别对div2 ul li和div3设置为相对定位,相应的,它里面的div2 ul li ul,div8 ul li ul和div3 ul就是绝对定位了*/
-.div2 ul li, .div4 dl dd, .div8 ul li {position: relative;}
-.div2 ul li ul, .div4 dl dd .rotate, .div6 ul, .div8 ul li ul, .div8 ul li div {position: absolute;}
+.div2 ul li, .div3, .div4 dl dd, .div8 ul li {position: relative;}
+.div2 ul li ul, .div4 dl dd .rotate, .div6 ul, .div8 ul li ul, .div8 ul li div, .vueslide-box, .vueslide-dot, .vueslide-arrow i {position: absolute;}
 .watermark {position: fixed;}
 .div4 dl dd .rotate, .watermark {left: 0px; top: 0px;}
 .div2 ul li ul, .div8 ul li ul {left: 0px; top: auto;}
@@ -934,6 +934,16 @@ html, body, .div1, .div2 ul, .div2 ul li ul, .div4 ul, .div4 ul li, .div5 ul, .d
 .watermark {z-index: -1;}
 .div8 ul li ul {z-index: 1;}
 .div2 ul li ul {z-index: 2;}
+
+.vueslide-box-fade {opacity: 0; transition: 0.7s; display: none}
+.vueslide-box-show {opacity: 1}
+.vueslide-box-block, .vueslide-arrow i {display: block;}
+.vueslide-dot {height: 10px; bottom: 20px; left: 50%; transform: translateX(-50%)}
+.vueslide-dot i {float: left; cursor: pointer; width: 10px; height: 10px; border-radius: 50%; background: #ccc; margin: 0 5px; transition: 0.3s}
+.vueslide-dot i.active {background: #0f0}
+.vueslide-arrow i {width: 40px; height: 40px; background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTU1NzI0MjA4NjA5IiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjIyOTAiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjgiIGhlaWdodD0iMjgiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTY3MC42NzY5MjkgNzc3LjU5Mjk4NCA0MDMuNjI3NzggNTEzLjM2MjAyMWwyNjUuMzIwNzg1LTI2OC4xNDYxMzNjMTEuNzc2MjA4LTExLjc3NTE4NCAxMS43MzQyNTItMzAuOTA4OTY0LTAuMDkxMDc0LTQyLjczNDI5bC0wLjAwMTAyMyAwYy0xMS44MjUzMjYtMTEuODI2MzUtMzAuOTU4MDgyLTExLjg2NzI4Mi00Mi43MjgxNSAyLjkzMDc0OUwzNDMuMTAwMjQyIDQ4OC40NDA0MjFjLTMuODE3OTU1IDQuMjczMzI3LTguMjA1ODkyIDkuMzIxMjk2LTguOTMzNDYzIDEyLjA0NTMzNy00LjQ3MDgyNSAxMS4xMTIwODItMi4yMzI4NTQgMjQuNzY1MDMzIDYuNzEwODQyIDM1Ljk4NzYzMmwyODYuOTgyMTMgMjg2Ljk4MjEzYzExLjg3NTQ2OCA4Ljg0NzUwNSAzMS4wOTYyMjkgOC44OTM1NTQgNDIuOTIyNTc4LTIuOTMyNzk2QzY4Mi42MDY2MzMgODA4LjY5NjM3NiA2ODIuNTYwNTg0IDc4OS40NzY2MzkgNjcwLjY3NjkyOSA3NzcuNTkyOTg0eiIgcC1pZD0iMjI5MSIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjwvc3ZnPg=="); background-color: #666; background-position: center; background-repeat: no-repeat; top: 50%; border-radius: 50%; cursor: pointer; transform: translateY(-50%)}
+.vueslide-arrow i:first-child {left: 15px}
+.vueslide-arrow i:last-child {right: 15px; transform: translateY(-50%) rotate(180deg)}
 
 /*定义全网站可通用的弹出下拉菜单样式,默认为隐藏层,而当鼠标经过时,显示该隐藏的层,该层内元素全作为block块状显示,也就是里面不管是文字还是图片等都可以看作是一个块状的统一体*/
 .div2 ul li ul, .div8 ul li ul, .cloudzoom-caption {display: none;}
