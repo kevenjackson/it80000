@@ -1,0 +1,1 @@
+<a href="/www/payment">付款方式</a>
