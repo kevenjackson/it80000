@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="/cnstyle.css" /><!-- TemplateEndEditable -->
 <style>.div1{background: url(/pb/banner.jpg) center no-repeat; background-size: 100% 100%; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');}</style>
 <script src="/scripts/vue/vue.js"></script>
+<script src="/scripts/vue/vueslide.js"></script>
 <script src="/scripts/jquery/jquery.js"></script>
 <script src="/scripts/jquery/jquerycycle.js"></script>
 <script src="/scripts/jquery/jqueryslide.js"></script>
@@ -22,7 +23,7 @@
 <script src="/scripts/serviceqq/2.js"></script>
 <script src="/scripts/share/share.js"></script></head><body>
 
-<div class="div1"><img class="left01" src="/image/catalog/logo/logo/1.png"></div>
+<div class="div1"><!-- TemplateBeginEditable name="11" --><img src="/image/catalog/logo/logo/1.png"><!-- TemplateEndEditable --></div>
 <div class="div2" id="11"><script>$("#11").load("/pb/1.php");</script></div>
 
 <div class="div11"><!-- TemplateBeginEditable name="1" --><!-- TemplateEndEditable --></div>

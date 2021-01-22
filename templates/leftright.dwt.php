@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="/cnstyle.css" /><!-- TemplateEndEditable -->
 <style>.div1{background: url(/banner.jpg) center no-repeat; background-size: 100% 100%; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');}</style>
 <script src="/scripts/vue/vue.js"></script>
+<script src="/scripts/vue/vueslide.js"></script>
 <script src="/scripts/jquery/jquery.js"></script>
 <script src="/scripts/jquery/jquerycycle.js"></script>
 <script src="/scripts/jquery/jqueryslide.js"></script>
@@ -22,12 +23,12 @@
 <script src="/scripts/serviceqq/2.js"></script>
 <script src="/scripts/share/share.js"></script></head><body>
 
-<div class="div1"><img class="left01" src="/image/catalog/logo/logo/1.png"></div>
+<div class="div1"><!-- TemplateBeginEditable name="11" --><img src="/image/catalog/logo/logo/1.png"><!-- TemplateEndEditable --></div>
 <div class="div2" id="1"><script>$("#1").load("/1.php");</script></div>
 
 <div class="div9"><dl class="w25">
 <dt><!-- TemplateBeginEditable name="left" --><!-- TemplateEndEditable --></dt>
-<!-- TemplateBeginEditable name="11" --><dd id="11"><script>$("#11").load("1.php");</script></dd><!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="1" --><dd id="1"><script>$("#1").load("1.php");</script></dd><!-- TemplateEndEditable -->
 
 <dt>product photo show产品展示</dt>
 <dd><ul class="scroll"><!-- TemplateBeginEditable name="4" -->
@@ -56,7 +57,7 @@ var aa = document.getElementById("copyRight");aa.innerHTML = "";}</script></dd><
 
 <dl class="w75 left5">
 <dt><!-- TemplateBeginEditable name="right" --><!-- TemplateEndEditable --></dt>
-<!-- TemplateBeginEditable name="12" --><dd id="12"><script>$("#12").load("2.php");</script></dd><!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="2" --><dd id="2"><script>$("#2").load("2.php");</script></dd><!-- TemplateEndEditable -->
 <span id="13"><script>$("#13").load("3.php");</script></span></dl></div>
 
 <div class="div4 img100" id="4"><script>$("#4").load("/4.php");</script></div>

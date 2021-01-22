@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="/cnstyle.css" /><!-- TemplateEndEditable -->
 <style>.div1 {background: url(banner.jpg) center no-repeat; background-size: 100% 100%; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');}</style>
 <script src="/scripts/vue/vue.js"></script>
-<script src="/scripts/vue/vueslideshow.js"></script>
+<script src="/scripts/vue/vueslide.js"></script>
 <script src="/scripts/jquery/jquery.js"></script>
 <script src="/scripts/jquery/jquerycycle.js"></script>
 <script src="/scripts/jquery/jqueryslide.js"></script>
@@ -22,11 +22,11 @@
 <script src="/scripts/serviceqq/2.js"></script>
 <script src="/scripts/share/share.js"></script></head><body>
 
-<div class="div1"><img class="left01" src="/image/catalog/logo/logo/1.png"></div>
+<div class="div1"><!-- TemplateBeginEditable name="1" --><img src="/image/catalog/logo/logo/1.png"><!-- TemplateEndEditable --></div>
 <div class="div2" id="1"><script>$("#1").load("1.php");</script></div>
 
-<div class="div3" id="slide"><!-- TemplateBeginEditable name="2" -->
-<script>new Vue().VueSlideShow("#slide", {images: 
+<div class="div3 slide"><!-- TemplateBeginEditable name="2" -->
+<script>new Vue().VueSlideShow(".slide", {images: 
 [{src: "/image/catalog/design/1.jpg", href: "#1"},
 {src: "/image/catalog/design/2.jpg", href: "#2"},
 {src: "/image/catalog/design/3.jpg", href: "#3"},
@@ -34,8 +34,8 @@
 {src: "/image/catalog/design/5.jpg", href: "#5"}],
 config: {effect: "slide", autoplay: 2000,}});</script><!-- TemplateEndEditable --></div>
 
-<div class="div3" id="fade"><!-- TemplateBeginEditable name="3" -->
-<script>new Vue().VueSlideShow("#fade", {images: 
+<div class="div3 fade"><!-- TemplateBeginEditable name="3" -->
+<script>new Vue().VueSlideShow(".fade", {images: 
 [{src: "/image/catalog/design/1.jpg", href: "#1"},
 {src: "/image/catalog/design/2.jpg", href: "#2"},
 {src: "/image/catalog/design/3.jpg", href: "#3"},
@@ -64,8 +64,8 @@ cube_l = "/image/catalog/design/5.jpg";
 cube_u = "/image/catalog/design/6.jpg";
 cube_d = "/image/catalog/design/7.jpg";</script><!-- TemplateEndEditable --></div>
 
-<div class="div3" id="vr"><!-- TemplateBeginEditable name="6" -->
-<script>new Vue().VueSlideShow("#vr", {images: 
+<div class="div3 vr"><!-- TemplateBeginEditable name="6" -->
+<script>new Vue().VueSlideShow(".vr", {images: 
 [{src: "/image/catalog/design/1.jpg", href: "#1"},
 {src: "/image/catalog/design/2.jpg", href: "#2"},
 {src: "/image/catalog/design/3.jpg", href: "#3"},
