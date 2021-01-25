@@ -1,0 +1,100 @@
+<!doctype html><html><head><meta charset="UTF-8"><base >
+<title>客户留言留言 - 祈网科技-长沙网站建设|网络推广首选服务提供商</title>
+
+<link rel="stylesheet" type="text/css" href="/cnstyle.css" />
+<style type="text/css">
+	body,div,ul,li,h1,h2,h3,span,a,input,label,b,p { margin:0; padding:0; font-family:"微软雅黑";}
+	ul, li, ol{list-style:none;}
+	em ,i{font-style:normal;}
+	input { border:none;}
+	em{font-family:"微软雅黑";color:#636363;}
+	.contact-tab1 { margin:0px; padding:0px 0px 0px 40px;font-size:15px;color:#636363; height:465px;}
+	.tab-title{font-size:30px; padding-bottom:20px}
+	.tab-title span{color:#999; font-size:14px;}
+	.tab-title span em{color:#eb6100;}	
+	.contact-tab1 li{ margin-bottom:17px;}
+	.contact-tab1 li a{ text-decoration:none;}
+    .contact-tab1 li label{ border:1px solid #d9d9d9; display:inline-block; padding:8px 10px; margin-right:8px;}
+	.contact-tab1 li label input.gongsi{ width:700px;}
+	.contact-tab1 li label input.chenhu{ width:280px;}
+	.contact-tab1 li label input.dianhua{ width:285px;}
+	.contact-tab1 li span{   padding-right:10px; position:relative; *top:-10px;}
+	.contact-tab1 li i{ font-style:normal; color:#eb6100; font-size:24px; display:inline-block; position:relative; top:8px;*top:-3px;}
+	.contact-tab1 li u{ text-decoration:none; font-style:italic; color:#999;}
+	.ifuwu{ float:left;}
+    .checkdiv{ float:left; width:560px; padding-left:10px;}
+    .checkdiv p{ float:left; width:210px; padding-bottom:10px;} 
+	.checkdiv p.cur{ float:left; width:260px} 
+	.checkdiv p em{ padding-left:8px;}
+	.contact-tab1 li.cur em{ padding-left:15px;}
+	.contact-tab1 li.anniu input{ cursor:pointer; background:#ff6f3d; font-family:"微软雅黑"; color:#FFF; font-weight:bold; width:125px; height:45px; font-size:16px; margin-right:30px;}
+	input,textarea{margin:0;padding:0;outline:none;font-size:100%;vertical-align:baseline;}
+	textarea{resize:none; border:none; width:701px;}
+	.del_float{ clear:both; line-height:0; height:0; font-size:0;}
+</style> 
+</head>
+
+<body style="padding-top:17px;">
+<form action="/plus/diy.php" name="myform" enctype="multipart/form-data" method="post">
+    <input type="hidden" name="action" value="post" />
+    <input type="hidden" name="diyid" value="1" />
+    <input type="hidden" name="do" value="2" />
+
+            	<ul class="contact-tab contact-tab1">
+                        <h3 class="tab-title">客户留言<span>（<em>*</em> 为必填项）</span></h3>
+                   
+                    <li>
+                    	<span>您的手机：</span><label><input type="text" class="i-name chenhu search_color" value="" name="tel"></label><i>*</i>&nbsp;
+                        <span>您的QQ：</span><label><input type="text" class="i-phone dianhua search_color" value="" name="qq"></label><i>*</i>
+                        
+                        <div class="del_float"></div>
+                    </li> 
+                    
+                    <li> 
+                        <span>公司名称：</span><label><input type="text" class="i-company chenhu search_color" value="" name="company"></label>&nbsp;&nbsp;
+                       <u>若为个人，请填写您的称呼</u>
+                        <div class="del_float"></div>
+                    </li>
+                    
+                    
+					<li> 
+                         <span>公司网址：</span><label><input type="text" class="i-company dianhua search_color" value="" name="site"></label>&nbsp;&nbsp;<u>若公司有网站请填写公司网址；若没有，请填写参考站网址</u>
+                        <div class="del_float"></div>
+                        <input type="hidden" name="dede_fields" value="shouji,text;qq,text;company,text;url,text;content,multitext;ttime,text" />
+<input type="hidden" name="dede_fieldshash" value="e3ea3a9927a619da67f49e6877c84658" />
+                    </li>
+                    <li>
+						<span>留言内容：</span><label><textarea rows="8" name="content"></textarea></label>
+                        <div class="del_float"></div>
+                    </li>
+
+                    
+                    <li class="anniu"><input type="button" class="tab-btn" value="提交留言" onclick="return tijiao(this.form);"><input type="reset" value="重置" style="width:110px;">凡留言后合作成功，祈网即送<a href="http://www.mi.com/dianyuan16000/">小米移动电源（16000mAh 价值：129元）</a>一个</li>
+                    
+                </ul>
+    <input type="hidden" name="dede_fields" value="tel,text;qq,text;company,text;site,text;content,multitext" />
+    <input type="hidden" name="dede_fieldshash" value="0707806cb1ea670704857c2b09605feb" />
+                </form>
+				<script language="javascript">
+	  function tijiao(theform)
+	  {
+		  if (theform.tel.value=="")
+	      {
+		    alert("请输入您的手机号码!");
+			theform.shouji.focus();
+			 return false;
+		  }	
+		  
+	if (theform.qq.value=="")
+	      {
+		    alert("请输入您的QQ号!");
+			theform.qq.focus();
+			 return false;
+		  }	
+		   	    			
+		  theform.submit()
+	  }
+	</script>
+                
+</body>
+</html>
