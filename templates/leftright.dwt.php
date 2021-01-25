@@ -5,9 +5,8 @@
 <link rel="stylesheet" type="text/css" href="/cnstyle.css" /><!-- TemplateEndEditable -->
 <style>.div1{background: url(/banner.jpg) center no-repeat; background-size: 100% 100%; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');}</style>
 <script src="/scripts/vue/vue.js"></script>
-<script src="/scripts/vue/vueslide.js"></script>
+<script src="/scripts/vue/vueswiper.js"></script>
 <script src="/scripts/jquery/jquery.js"></script>
-<script src="/scripts/jquery/jquerycycle.js"></script>
 <script src="/scripts/jquery/jqueryslide.js"></script>
 <script src="/scripts/jquery/jqueryzoom.js"></script>
 <script src="/scripts/jquery/jqueryelevatezoom.js"></script>
