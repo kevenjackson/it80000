@@ -1,88 +1,46 @@
 <ul><li><a href="/">首页</a></li>
+<li><a href="/www/design/1">平面设计</a></li>
 
-<li><a href="/index.php?route=product/category&path=1">赣州</a>
+<li><a href="/www/design/2">网页设计</a>
 <ul>
-<li><a href="/index.php?route=product/category&path=1_103">老城区</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">章江新区</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">章贡开发区</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">水东区</a></li>
-<li><a href="/index.php?route=product/category&path=1_104">水西区</a></li>
-<li><a href="/index.php?route=product/category&path=1_104">站北区</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">安远县</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">崇义县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">大余县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">定南县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">赣县区</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">会昌县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">龙南县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">龙南县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">南康区</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">宁都县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">全南县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">瑞金市</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">上犹县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">石城县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">兴国县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">信丰县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">寻乌县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">于都县</a></li></ul></li>
+<li><a href="/www/design/2">网页设计</a></li>
+<li><a href="/www/design/2">企业cms内容发布模板</a></li>
+<li><a href="/www/design/2">企业shop商城发布模板</a></li>
+<li><a href="/www/design/2">淘宝装修模板</a></li>
+<li><a href="/www/design/2">天猫装修模板</a></li>
+<li><a href="/www/design/2">阿里巴巴装修模板</a></li>
+<li><a href="/www/design/2">京东装修模板</a></li>
+<li><a href="/www/design/2">aliexpress全球速通外贸网店装修模板</a></li>
+<li><a href="/www/design/2">ebay装修模板</a></li>
+<li><a href="/www/design/2">amazon装修模板</a></li></ul></li>
 
-<li><a href="https://world.taobao.com/item/573564396117.htm">住宅</a>
+<li><a href="/www/design/3">网站建设</a>
 <ul>
-<li><a href="https://world.taobao.com/item/573564396117.htm">新房</a></li>
-<li><a href="https://v.qq.com/x/page/y0501yvjcq4.html">二手房</a></li></ul></li>
+<li><a href="/www/design/3">企业网站建设</a></li>
+<li><a href="/www/design/3">政府网站建设</a></li>
+<li><a href="/www/design/3">企业内外贸商城</a></li>
+<li><a href="/www/design/3">企业小程序商城</a></li></ul></li>
 
-<li><a href="/index.php?route=product/category&path=1">别墅</a>
+<li><a href="/www/design/4">三维动画与设计</a></li>
+
+<li><a href="/www/design/5">三维全景图</a>
 <ul>
-<li><a href="https://world.taobao.com/item/573564396117.htm">新房</a></li>
-<li><a href="https://v.qq.com/x/page/y0501yvjcq4.html">二手房</a></li></ul></li>
+<li><a href="/www/design/5">人物影像全景图</a></li>
+<li><a href="/www/design/5">景区全景图</a></li>
+<li><a href="/www/design/5">酒店场馆</a></li></ul></li>
 
-<li><a href="https://world.taobao.com/item/558821488905.htm">商铺</a>
-<ul>
-<li><a href="https://world.taobao.com/item/573564396117.htm">新房</a></li>
-<li><a href="https://v.qq.com/x/page/y0501yvjcq4.html">二手房</a></li></ul></li>
+<li><a href="/www/design/6">建筑设计</a></li>
+<li><a href="/www/design/6">装修设计</a></li>
 
-<li><a href="https://world.taobao.com/item/573564396117.htm">写字楼</a>
-<ul>
-<li><a href="https://world.taobao.com/item/573564396117.htm">新房</a></li>
-<li><a href="https://v.qq.com/x/page/y0501yvjcq4.html">二手房</a></li></ul></li>
-
-<li><a href="https://world.taobao.com/item/558821488905.htm">车位</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">车位出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">车位出售</a></li></ul></li>
-
-<li><a href="/index.php?route=product/category&path=1">看房团</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">笋盘</a></li>
-<li><a href="/member">地图找房</a></li>
-
-<li><a href="/member">租房</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">小区电梯房</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">小区楼梯房</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">无小区电梯房</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">无小区楼梯房</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">商铺店面出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">写字楼出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">soho共享办公</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">闲置场地场馆出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">闲置运动场地出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">闲置K拉OK厅出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">闲置培训教育出租</a></li></ul></li>
-
-<li><a href="/index.php?route=product/category&path=1">土地交易</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">开发商土地合股开发运营</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">拆迁安置土地合股开发运营</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">村民集体土地合股开发运营</a></li></ul></li>
-
-<li><a href="/index.php?route=product/category&path=1">家居装修</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">奔浪房产信息网授权认证合作伙伴家居公司</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">奔浪房产信息网授权认证合作伙伴家具公司</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">奔浪房产信息网授权认证合作伙伴装修公司</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">奔浪房产信息网授权认证合作伙伴建材公司</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">奔浪房产信息网授权认证合作伙伴物业公司</a></li></ul></li>
+<li><a href="/1">公司网站</a>
+<ul><li><a href="/2">奔浪手机网</a></li>
+<li><a href="/3">奔浪在线教育</a></li>
+<li><a href="/4">奔浪旅行网</a></li>
+<li><a href="/5">奔浪房产信息网</a></li>
+<li><a href="/6">奔浪二手车交易网</a></li>
+<li><a href="/7">奔浪婚姻介绍</a></li>
+<li><a href="/8">奔浪装修设计</a></li>
+<li><a href="/9">奔浪投资理财网</a></li></ul></li>
 
 <li><a href="/www/product">奔浪商城</a>
 <ul>
@@ -111,90 +69,21 @@
 <li><a href="/www/payment">安全付款方式</a></li>
 <li><a href="/member">注册登陆</a></li></ul></li>
 
-<li><a href="/index.php?route=product/category&path=1">赣州</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_103">老城区</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">章江新区</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">章贡开发区</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">水东区</a></li>
-<li><a href="/index.php?route=product/category&path=1_104">水西区</a></li>
-<li><a href="/index.php?route=product/category&path=1_104">站北区</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">安远县</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">崇义县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">大余县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">定南县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">赣县区</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">会昌县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">龙南县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">龙南县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">南康区</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">宁都县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">全南县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">瑞金市</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">上犹县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">石城县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">兴国县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">信丰县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">寻乌县</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">于都县</a></li></ul></li>
+<li><a href="https://shop215929372.world.taobao.com">淘宝</a>
+<ul><li><a href="https://shop215929372.world.taobao.com"><img src="/image/catalog/logo/taobao/1.gif"></a></li></ul></li>
+<li><a href="https://keven.aliexpress.com">速卖通</a>
+<ul><li><a href="https://keven.aliexpress.com"><img src="/image/catalog/logo/aliexpress/2.gif"></a></li></ul></li>
+<li><a href="https://www.dhgate.com/product/wholesale-original-genuine-girl-leather-wallet/403257183.html">Dhgate</a>
+<ul><li><a href="https://www.dhgate.com/product/wholesale-original-genuine-girl-leather-wallet/403257183.html"><img src="/image/catalog/logo/dhgate/1.gif"></a></li></ul></li>
+<li><a href="https://www.ebay.com">Ebay</a>
+<ul><li><a href="https://www.ebay.com"><img src="/image/catalog/logo/ebay/1.gif"></a></li></ul></li>
+<li><a href="https://www.amazon.com">Amazon</a>
+<ul><li><a href="https://www.amazon.com"><img src="/image/catalog/logo/amazon/1.gif"></a></li></ul></li>
+<li><a href="/www/wechat">微信商城</a>
+<ul><li><a href="/www/wechat"><img src="/image/catalog/logo/wechat/1.gif"></a></li></ul></li>
+<li><a href="https://www.yangkeduo.com">拼多多</a>
+<ul><li><a href="https://yangkeduo.com"><img src="/image/catalog/logo/pinduoduo/1.gif"></a></li></ul></li>
+<li><a href="http://www.shopee.com">Shopee</a>
+<ul><li><a href="https://www.shopee.com"><img src="/image/catalog/logo/shopee/1.gif"></a></li></ul></li>
 
-<li><a href="">首页</a></li>
-
-<li><a href="https://world.taobao.com/item/573564396117.htm">住宅</a>
-<ul>
-<li><a href="https://world.taobao.com/item/573564396117.htm">新房</a></li>
-<li><a href="https://v.qq.com/x/page/y0501yvjcq4.html">二手房</a></li></ul></li>
-
-<li><a href="/index.php?route=product/category&path=1">别墅</a>
-<ul>
-<li><a href="https://world.taobao.com/item/573564396117.htm">新房</a></li>
-<li><a href="https://v.qq.com/x/page/y0501yvjcq4.html">二手房</a></li></ul></li>
-
-<li><a href="https://world.taobao.com/item/558821488905.htm">商铺</a>
-<ul>
-<li><a href="https://world.taobao.com/item/573564396117.htm">新房</a></li>
-<li><a href="https://v.qq.com/x/page/y0501yvjcq4.html">二手房</a></li></ul></li>
-
-<li><a href="https://world.taobao.com/item/573564396117.htm">写字楼</a>
-<ul>
-<li><a href="https://world.taobao.com/item/573564396117.htm">新房</a></li>
-<li><a href="https://v.qq.com/x/page/y0501yvjcq4.html">二手房</a></li></ul></li>
-
-<li><a href="https://world.taobao.com/item/558821488905.htm">车位</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">车位出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">车位出售</a></li></ul></li>
-
-<li><a href="/index.php?route=product/category&path=1">看房团</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">笋盘</a></li>
-<li><a href="/member">地图找房</a></li>
-
-<li><a href="/member">租房</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">小区电梯房</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">小区楼梯房</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">无小区电梯房</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">无小区楼梯房</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">商铺店面出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">写字楼出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">soho共享办公</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">闲置场地场馆出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">闲置运动场地出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">闲置K拉OK厅出租</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">闲置培训教育出租</a></li></ul></li>
-
-<li><a href="/index.php?route=product/category&path=1">土地交易</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">开发商土地合股开发运营</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">拆迁安置土地合股开发运营</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">村民集体土地合股开发运营</a></li></ul></li>
-
-<li><a href="/index.php?route=product/category&path=1">家居装修</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">奔浪房产信息网授权认证合作伙伴家居公司</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">奔浪房产信息网授权认证合作伙伴家具公司</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">奔浪房产信息网授权认证合作伙伴装修公司</a></li>
-<li><a href="/index.php?route=product/category&path=1_101">奔浪房产信息网授权认证合作伙伴建材公司</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">奔浪房产信息网授权认证合作伙伴物业公司</a></li></ul></li>
-
-</ul>
+<li><a href="/member">登陆</a></li></ul>

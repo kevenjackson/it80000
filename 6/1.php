@@ -1,72 +1,46 @@
 <ul><li><a href="/">首页</a></li>
+<li><a href="/www/design/1">平面设计</a></li>
 
-<li><a href="http://www.iphone8000.com/index.php?route=product/product&path=5_303&product_id=949">品牌</a>
+<li><a href="/www/design/2">网页设计</a>
 <ul>
-<li><a href="https://world.taobao.com/item/573564396117.htm">Benz奔驰</a></li>
-<li><a href="https://v.qq.com/x/page/y0501yvjcq4.html">BMW宝马</a></li>
-<li><a href="/www/payment">porsche保时捷</a></li></ul></li>
+<li><a href="/www/design/2">网页设计</a></li>
+<li><a href="/www/design/2">企业cms内容发布模板</a></li>
+<li><a href="/www/design/2">企业shop商城发布模板</a></li>
+<li><a href="/www/design/2">淘宝装修模板</a></li>
+<li><a href="/www/design/2">天猫装修模板</a></li>
+<li><a href="/www/design/2">阿里巴巴装修模板</a></li>
+<li><a href="/www/design/2">京东装修模板</a></li>
+<li><a href="/www/design/2">aliexpress全球速通外贸网店装修模板</a></li>
+<li><a href="/www/design/2">ebay装修模板</a></li>
+<li><a href="/www/design/2">amazon装修模板</a></li></ul></li>
 
-<li><a href="/index.php?route=product/category&path=1">新能源车</a>
+<li><a href="/www/design/3">网站建设</a>
 <ul>
-<li><a href="/index.php?route=product/category&path=1_101">全新港澳台日新加坡印度原版full new original</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">二手翻新机secondary refurbished or used</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">iphone6 6s plus旧机回收</a></li>
-<li><a href="/index.php?route=product/category&path=1_104">中国组装高仿iphone6 6s plus手机</a></li></ul></li>
+<li><a href="/www/design/3">企业网站建设</a></li>
+<li><a href="/www/design/3">政府网站建设</a></li>
+<li><a href="/www/design/3">企业内外贸商城</a></li>
+<li><a href="/www/design/3">企业小程序商城</a></li></ul></li>
 
-<li><a href="https://world.taobao.com/item/558821488905.htm">小型车</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=3_301">全新港澳台日新加坡印度版full new original</a></li>
-<li><a href="/index.php?route=product/category&path=3_302">二手翻新机secondary refurbished or used</a></li>
-<li><a href="/index.php?route=product/category&path=3_103">iphone8 8s 8x plus旧机回收</a></li>
-<li><a href="/index.php?route=product/category&path=3_104">中国组装高仿iphone8 8s 8x plus手机</a></li></ul></li>
+<li><a href="/www/design/4">三维动画与设计</a></li>
 
-<li><a href="http://www.iphone8000.com/index.php?route=product/product&path=5_303&product_id=955">大型车</a>
+<li><a href="/www/design/5">三维全景图</a>
 <ul>
-<li><a href="/index.php?route=product/category&path=2_201">全新港澳台日新加坡印度版full new original</a></li>
-<li><a href="/index.php?route=product/category&path=2_202">二手翻新机secondary refurbished or used</a></li>
-<li><a href="/index.php?route=product/category&path=2_103">iphone7 7s plus旧机回收</a></li>
-<li><a href="/index.php?route=product/category&path=2_104">中国组装高仿iphone7 7s plus手机</a></li></ul></li>
+<li><a href="/www/design/5">人物影像全景图</a></li>
+<li><a href="/www/design/5">景区全景图</a></li>
+<li><a href="/www/design/5">酒店场馆</a></li></ul></li>
 
-<li><a href="https://world.taobao.com/item/558967638980.htm">豪华超跑</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=4_401">全新港澳台日新加坡印度版full new original</a></li>
-<li><a href="/index.php?route=product/category&path=4_402">二手翻新机secondary refurbished or used</a></li>
-<li><a href="/index.php?route=product/category&path=4_103">苹果mackook笔记本电脑回收</a></li></ul></li>
+<li><a href="/www/design/6">建筑设计</a></li>
+<li><a href="/www/design/6">装修设计</a></li>
 
-<li><a href="/index.php?route=product/category&path=1">Suv越野车</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">全新港澳台日新加坡印度原版full new original</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">二手翻新机secondary refurbished or used</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">iphone6 6s plus旧机回收</a></li>
-<li><a href="/index.php?route=product/category&path=1_104">中国组装高仿iphone6 6s plus手机</a></li></ul></li>
-
-<li><a href="/index.php?route=product/category&path=1">小货车</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">全新港澳台日新加坡印度原版full new original</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">二手翻新机secondary refurbished or used</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">iphone6 6s plus旧机回收</a></li>
-<li><a href="/index.php?route=product/category&path=1_104">中国组装高仿iphone6 6s plus手机</a></li></ul></li>
-
-<li><a href="/index.php?route=product/category&path=1">中型货车</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">全新港澳台日新加坡印度原版full new original</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">二手翻新机secondary refurbished or used</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">iphone6 6s plus旧机回收</a></li>
-<li><a href="/index.php?route=product/category&path=1_104">中国组装高仿iphone6 6s plus手机</a></li></ul></li>
-
-<li><a href="/index.php?route=product/category&path=1">大货车</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">全新港澳台日新加坡印度原版full new original</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">二手翻新机secondary refurbished or used</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">iphone6 6s plus旧机回收</a></li>
-<li><a href="/index.php?route=product/category&path=1_104">中国组装高仿iphone6 6s plus手机</a></li></ul></li>
-
-<li><a href="/index.php?route=product/category&path=1">超大型货柜车</a>
-<ul>
-<li><a href="/index.php?route=product/category&path=1_101">全新港澳台日新加坡印度原版full new original</a></li>
-<li><a href="/index.php?route=product/category&path=1_102">二手翻新机secondary refurbished or used</a></li>
-<li><a href="/index.php?route=product/category&path=1_103">iphone6 6s plus旧机回收</a></li>
-<li><a href="/index.php?route=product/category&path=1_104">中国组装高仿iphone6 6s plus手机</a></li></ul></li>
+<li><a href="/1">公司网站</a>
+<ul><li><a href="/2">奔浪手机网</a></li>
+<li><a href="/3">奔浪在线教育</a></li>
+<li><a href="/4">奔浪旅行网</a></li>
+<li><a href="/5">奔浪房产信息网</a></li>
+<li><a href="/6">奔浪二手车交易网</a></li>
+<li><a href="/7">奔浪婚姻介绍</a></li>
+<li><a href="/8">奔浪装修设计</a></li>
+<li><a href="/9">奔浪投资理财网</a></li></ul></li>
 
 <li><a href="/www/product">奔浪商城</a>
 <ul>
@@ -94,4 +68,22 @@
 <li><a href="https://www.shopee.com"><img src="/image/catalog/logo/shopee/1.gif"></a></li>
 <li><a href="/www/payment">安全付款方式</a></li>
 <li><a href="/member">注册登陆</a></li></ul></li>
-</ul>
+
+<li><a href="https://shop215929372.world.taobao.com">淘宝</a>
+<ul><li><a href="https://shop215929372.world.taobao.com"><img src="/image/catalog/logo/taobao/1.gif"></a></li></ul></li>
+<li><a href="https://keven.aliexpress.com">速卖通</a>
+<ul><li><a href="https://keven.aliexpress.com"><img src="/image/catalog/logo/aliexpress/2.gif"></a></li></ul></li>
+<li><a href="https://www.dhgate.com/product/wholesale-original-genuine-girl-leather-wallet/403257183.html">Dhgate</a>
+<ul><li><a href="https://www.dhgate.com/product/wholesale-original-genuine-girl-leather-wallet/403257183.html"><img src="/image/catalog/logo/dhgate/1.gif"></a></li></ul></li>
+<li><a href="https://www.ebay.com">Ebay</a>
+<ul><li><a href="https://www.ebay.com"><img src="/image/catalog/logo/ebay/1.gif"></a></li></ul></li>
+<li><a href="https://www.amazon.com">Amazon</a>
+<ul><li><a href="https://www.amazon.com"><img src="/image/catalog/logo/amazon/1.gif"></a></li></ul></li>
+<li><a href="/www/wechat">微信商城</a>
+<ul><li><a href="/www/wechat"><img src="/image/catalog/logo/wechat/1.gif"></a></li></ul></li>
+<li><a href="https://www.yangkeduo.com">拼多多</a>
+<ul><li><a href="https://yangkeduo.com"><img src="/image/catalog/logo/pinduoduo/1.gif"></a></li></ul></li>
+<li><a href="http://www.shopee.com">Shopee</a>
+<ul><li><a href="https://www.shopee.com"><img src="/image/catalog/logo/shopee/1.gif"></a></li></ul></li>
+
+<li><a href="/member">登陆</a></li></ul>
