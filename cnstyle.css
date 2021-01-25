@@ -926,7 +926,7 @@ html, body, .div1, .div2 ul, .div2 ul li ul, .div4 ul, .div4 ul li, .div5 ul, .d
 
 /*定义首页的第3个大方框,这个方框里面引用产品轮播展示图,为了在div3里面实现产品轮播效果及在div12,div8的菜单栏里面实现网页弹出菜单效果,需要分别对div2 ul li和div3设置为相对定位,相应的,它里面的div2 ul li ul,div8 ul li ul和div3 ul就是绝对定位了*/
 .div2 ul li, .div3, .div4 dl dd, .div8 ul li {position: relative;}
-.div2 ul li ul, .div4 dl dd .rotate, .div6 ul, .div8 ul li ul, .div8 ul li div, .vueslide-box, .vueslide-dot, .vueslide-arrow i {position: absolute;}
+.div2 ul li ul, .div4 dl dd .rotate, .div6 ul, .div8 ul li ul, .div8 ul li div {position: absolute;}
 .watermark {position: fixed;}
 .div4 dl dd .rotate, .watermark {left: 0px; top: 0px;}
 .div2 ul li ul, .div8 ul li ul {left: 0px; top: auto;}
@@ -934,16 +934,6 @@ html, body, .div1, .div2 ul, .div2 ul li ul, .div4 ul, .div4 ul li, .div5 ul, .d
 .watermark {z-index: -1;}
 .div8 ul li ul {z-index: 1;}
 .div2 ul li ul {z-index: 2;}
-
-.vueslide-box-fade {opacity: 0; transition: 0.7s; display: none}
-.vueslide-box-show {opacity: 1}
-.vueslide-box-block, .vueslide-arrow i {display: block;}
-.vueslide-dot {height: 10px; bottom: 20px; left: 50%; transform: translateX(-50%)}
-.vueslide-dot i {float: left; cursor: pointer; width: 10px; height: 10px; border-radius: 50%; background: #ccc; margin: 0 5px; transition: 0.3s}
-.vueslide-dot i.active {background: #0f0}
-.vueslide-arrow i {width: 40px; height: 40px; background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTU1NzI0MjA4NjA5IiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjIyOTAiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjgiIGhlaWdodD0iMjgiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTY3MC42NzY5MjkgNzc3LjU5Mjk4NCA0MDMuNjI3NzggNTEzLjM2MjAyMWwyNjUuMzIwNzg1LTI2OC4xNDYxMzNjMTEuNzc2MjA4LTExLjc3NTE4NCAxMS43MzQyNTItMzAuOTA4OTY0LTAuMDkxMDc0LTQyLjczNDI5bC0wLjAwMTAyMyAwYy0xMS44MjUzMjYtMTEuODI2MzUtMzAuOTU4MDgyLTExLjg2NzI4Mi00Mi43MjgxNSAyLjkzMDc0OUwzNDMuMTAwMjQyIDQ4OC40NDA0MjFjLTMuODE3OTU1IDQuMjczMzI3LTguMjA1ODkyIDkuMzIxMjk2LTguOTMzNDYzIDEyLjA0NTMzNy00LjQ3MDgyNSAxMS4xMTIwODItMi4yMzI4NTQgMjQuNzY1MDMzIDYuNzEwODQyIDM1Ljk4NzYzMmwyODYuOTgyMTMgMjg2Ljk4MjEzYzExLjg3NTQ2OCA4Ljg0NzUwNSAzMS4wOTYyMjkgOC44OTM1NTQgNDIuOTIyNTc4LTIuOTMyNzk2QzY4Mi42MDY2MzMgODA4LjY5NjM3NiA2ODIuNTYwNTg0IDc4OS40NzY2MzkgNjcwLjY3NjkyOSA3NzcuNTkyOTg0eiIgcC1pZD0iMjI5MSIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjwvc3ZnPg=="); background-color: #666; background-position: center; background-repeat: no-repeat; top: 50%; border-radius: 50%; cursor: pointer; transform: translateY(-50%)}
-.vueslide-arrow i:first-child {left: 15px}
-.vueslide-arrow i:last-child {right: 15px; transform: translateY(-50%) rotate(180deg)}
 
 :root{--swiper-theme-color: #007aff}
 .swiper-container{position: relative;}
