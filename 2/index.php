@@ -58,8 +58,7 @@
 <div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/30.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/31.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/32.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/33.jpg"></div>
-config: {effect: "slide", autoplay: 2000,}});</script><!-- InstanceEndEditable --></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/33.jpg"></div><!-- InstanceEndEditable --></div>
 <div class="swiper-pagination"></div><div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
 <script>var swiper = new Swiper('.slide', {effect: 'slide', autoplay: {delay: 2000,}, images: 
 [{src: "/image/catalog/product/pcsoftware/1.jpg", href: "/www/product/pcsoftware/kaspersky/kav"},
@@ -123,8 +122,7 @@ pagination: {el: '.swiper-pagination',}, navigation: {nextEl: '.swiper-button-ne
 <div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/63.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/64.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/65.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/66.jpg"></div>
-<!-- InstanceEndEditable --></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/66.jpg"></div><!-- InstanceEndEditable --></div>
 <div class="swiper-pagination"></div><div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
 <script>var swiper = new Swiper('.fade', {effect: 'fade', autoplay: {delay: 2000,}, images: 
 [{src: "/image/catalog/product/pcsoftware/27.jpg", href: "/www/product/pcsoftware/avg"},
@@ -177,63 +175,126 @@ cube_u = "/image/catalog/product/mobileaccessories/convertor/otg/2/1.jpg";
 cube_d = "/image/catalog/product/mobileaccessories/glassfilm/iphone/3/1.jpg";</script><!-- InstanceEndEditable --></div>
 
 <div class="div3 scroll" id="2"><div class="swiper-wrapper"><!-- InstanceBeginEditable name="6" -->
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/charger/1/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/charger/1/2.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/charger/2/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/charger/2/3.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/charger/5/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/charger/7/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/charger/9/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/charger/10/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/cable/iphone/1/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/cable/iphone/1/3.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/cable/android/1/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/cable/android/1/28.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/cable/typec/1/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/cable/typec/1/2.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/cable/hdmi/1/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/cable/hdmi/2/7.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/convertor/otg/2/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/convertor/otg/2/3.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/convertor/otg/4/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/convertor/otg/4/2.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/memorycard/udisk/kingston/1/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/memorycard/udisk/kingston/1/14.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/convertor/hdmi/1/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/convertor/hdmi/1/2.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/wirelessnetwork/wirelessrouter/tplink/xdr3230/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/wirelessnetwork/wirelessrouter/tplink/xdr3230/2.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/glassfilm/iphone/3/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/glassfilm/iphone/3/2.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/plug/1/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/plug/1/2.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/lighter/1/1.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/product/lighter/3/1.jpg"></div><!-- InstanceEndEditable --></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/1.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/2.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/3.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/4.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/5.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/6.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/7.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/8.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/9.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/10.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/11.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/12.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/13.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/14.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/15.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/16.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/17.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/18.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/19.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/20.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/21.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/22.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/23.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/24.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/25.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/26.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/27.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/28.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/29.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/30.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/31.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/32.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/33.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/34.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/35.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/36.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/37.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/38.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/39.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/40.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/41.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/42.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/43.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/44.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/45.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/46.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/47.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/48.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/49.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/50.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/51.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/52.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/53.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/54.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/55.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/56.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/57.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/58.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/59.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/60.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/61.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/62.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/63.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/64.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/65.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/mobileaccessories/66.jpg"></div><!-- InstanceEndEditable --></div>
 <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
 <script>var swiper = new Swiper('.scroll', {effect: 'slide', autoplay: {delay: 2000,}, images: 
-[{src: "/image/catalog/product/pcsoftware/kaspersky/kav/1.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kav/2.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kav/3.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kis/1.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kis/2.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kis/3.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kis/4.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kis/5.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kts/1.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kts/2.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kts/3.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/1.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/2.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/3.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kes/1.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/kms/1.gif"},
-{src: "/image/catalog/product/pcsoftware/kaspersky/ksc/1.gif"},
-{src: "/image/catalog/product/pcsoftware/eset/eav/1.jpg"},
-{src: "/image/catalog/product/pcsoftware/eset/ess/1.jpg"},
-{src: "/image/catalog/product/pcsoftware/eset/essp/1.jpg"},
-{src: "/image/catalog/product/pcsoftware/eset/eis/1.jpg"},
-{src: "/image/catalog/product/pcsoftware/eset/ems/1.jpg"},
-{src: "/image/catalog/product/pcsoftware/eset/efs/1.jpg"},],
+[{src: "/image/catalog/product/pcsoftware/1.jpg", href: "/www/product/pcsoftware/kaspersky/kav"},
+{src: "/image/catalog/product/pcsoftware/2.jpg", href: "/www/product/pcsoftware/kaspersky/kav"},
+{src: "/image/catalog/product/pcsoftware/3.jpg", href: "/www/product/pcsoftware/kaspersky/kis"},
+{src: "/image/catalog/product/pcsoftware/4.jpg", href: "/www/product/pcsoftware/kaspersky/kis"},
+{src: "/image/catalog/product/pcsoftware/5.jpg", href: "/www/product/pcsoftware/kaspersky/kis"},
+{src: "/image/catalog/product/pcsoftware/6.jpg", href: "/www/product/pcsoftware/kaspersky/kts"},
+{src: "/image/catalog/product/pcsoftware/7.jpg", href: "/www/product/pcsoftware/kaspersky/kts"},
+{src: "/image/catalog/product/pcsoftware/8.jpg", href: "/www/product/pcsoftware/kaspersky/kts"},
+{src: "/image/catalog/product/pcsoftware/9.jpg", href: "/www/product/pcsoftware/kaspersky/ksos"},
+{src: "/image/catalog/product/pcsoftware/10.jpg", href: "/www/product/pcsoftware/kaspersky/ksos"},
+{src: "/image/catalog/product/pcsoftware/11.jpg", href: "/www/product/pcsoftware/kaspersky/kes"},
+{src: "/image/catalog/product/pcsoftware/12.jpg", href: "/www/product/pcsoftware/kaspersky/kms"},
+{src: "/image/catalog/product/pcsoftware/13.jpg", href: "/www/product/pcsoftware/kaspersky/ksc"},
+{src: "/image/catalog/product/pcsoftware/14.jpg", href: "/www/product/pcsoftware/eset/eav"},
+{src: "/image/catalog/product/pcsoftware/15.jpg", href: "/www/product/pcsoftware/eset/eav"},
+{src: "/image/catalog/product/pcsoftware/16.jpg", href: "/www/product/pcsoftware/eset/eav"},
+{src: "/image/catalog/product/pcsoftware/17.jpg", href: "/www/product/pcsoftware/eset/ess"},
+{src: "/image/catalog/product/pcsoftware/18.jpg", href: "/www/product/pcsoftware/eset/ess"},
+{src: "/image/catalog/product/pcsoftware/19.jpg", href: "/www/product/pcsoftware/eset/ess"},
+{src: "/image/catalog/product/pcsoftware/20.jpg", href: "/www/product/pcsoftware/eset/essp"},
+{src: "/image/catalog/product/pcsoftware/21.jpg", href: "/www/product/pcsoftware/eset/essp"},
+{src: "/image/catalog/product/pcsoftware/22.jpg", href: "/www/product/pcsoftware/eset/emds"},
+{src: "/image/catalog/product/pcsoftware/23.jpg", href: "/www/product/pcsoftware/eset/emsd"},
+{src: "/image/catalog/product/pcsoftware/24.jpg", href: "/www/product/pcsoftware/eset/eis"},
+{src: "/image/catalog/product/pcsoftware/25.jpg", href: "/www/product/pcsoftware/eset/eis"},
+{src: "/image/catalog/product/pcsoftware/26.jpg", href: "/www/product/pcsoftware/eset/ems"},
+{src: "/image/catalog/product/pcsoftware/27.jpg", href: "/www/product/pcsoftware/avg"},
+{src: "/image/catalog/product/pcsoftware/28.jpg", href: "/www/product/pcsoftware/avg"},
+{src: "/image/catalog/product/pcsoftware/29.jpg", href: "/www/product/pcsoftware/bitdefend"},
+{src: "/image/catalog/product/pcsoftware/30.jpg", href: "/www/product/pcsoftware/bitdefend"},
+{src: "/image/catalog/product/pcsoftware/31.jpg", href: "/www/product/pcsoftware/macfee"},
+{src: "/image/catalog/product/pcsoftware/32.jpg", href: "/www/product/pcsoftware/windows/win7"},
+{src: "/image/catalog/product/pcsoftware/33.jpg", href: "/www/product/pcsoftware/windows/win8"},
+{src: "/image/catalog/product/pcsoftware/34.jpg", href: "/www/product/pcsoftware/windows/win10"},
+{src: "/image/catalog/product/pcsoftware/35.jpg", href: "/www/product/pcsoftware/office/office365"},
+{src: "/image/catalog/product/pcsoftware/36.jpg", href: "/www/product/pcsoftware/office/office365"},
+{src: "/image/catalog/product/pcsoftware/37.jpg", href: "/www/product/pcsoftware/office/office365"},
+{src: "/image/catalog/product/pcsoftware/38.jpg", href: "/www/product/pcsoftware/office/officehs"},
+{src: "/image/catalog/product/pcsoftware/39.jpg", href: "/www/product/pcsoftware/office/officepro"},
+{src: "/image/catalog/product/pcsoftware/40.jpg", href: "/www/product/pcsoftware/office/officepro"},
+{src: "/image/catalog/product/pcsoftware/41.jpg", href: "/www/product/pcsoftware/office/officeproplus"},
+{src: "/image/catalog/product/pcsoftware/42.jpg", href: "/www/product/pcsoftware/office/officeproplus"},
+{src: "/image/catalog/product/pcsoftware/43.jpg", href: "/www/product/pcsoftware/coreldraw"},
+{src: "/image/catalog/product/pcsoftware/44.jpg", href: "/www/product/pcsoftware/photoshop"},
+{src: "/image/catalog/product/pcsoftware/45.jpg", href: "/www/product/pcsoftware/photoshop"},
+{src: "/image/catalog/product/pcsoftware/46.jpg", href: "/www/product/pcsoftware/fireworks"},
+{src: "/image/catalog/product/pcsoftware/47.jpg", href: "/www/product/pcsoftware/autocad"},
+{src: "/image/catalog/product/pcsoftware/48.jpg", href: "/www/product/pcsoftware/3dmax"},
+{src: "/image/catalog/product/pcsoftware/49.jpg", href: "/www/product/pcsoftware/imagebeautyshow"},
+{src: "/image/catalog/product/pcsoftware/50.jpg", href: "/www/product/pcsoftware/videoplayer"},
+{src: "/image/catalog/product/pcsoftware/51.jpg", href: "/www/product/pcsoftware/internetdownloadmanager"},
+{src: "/image/catalog/product/pcsoftware/52.jpg", href: "/www/product/pcsoftware/intelligentsciencecalculator"}],
 navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
 
 <div class="div4"><!-- InstanceBeginEditable name="7" -->
