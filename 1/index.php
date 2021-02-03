@@ -35,7 +35,17 @@
 <div class="swiper-slide"><img src="/image/catalog/design/7.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/design/8.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/design/9.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/design/10.jpg"></div><!-- InstanceEndEditable --></div>
+<div class="swiper-slide"><img src="/image/catalog/design/10.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/11.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/12.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/13.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/14.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/15.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/16.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/17.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/18.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/19.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/20.jpg"></div><!-- InstanceEndEditable --></div>
 <div class="swiper-pagination"></div><div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
 <script>var swiper = new Swiper('.slide', {effect: 'slide', autoplay: {delay: 2000,}, images: 
 [{src: "/image/catalog/product/pcsoftware/1.jpg", href: "/www/product/pcsoftware/kaspersky/kav"},
@@ -64,19 +74,29 @@
 {src: "/image/catalog/product/pcsoftware/24.jpg", href: "/www/product/pcsoftware/eset/eis"},
 {src: "/image/catalog/product/pcsoftware/25.jpg", href: "/www/product/pcsoftware/eset/eis"},
 {src: "/image/catalog/product/pcsoftware/26.jpg", href: "/www/product/pcsoftware/eset/ems"}],
-pagination: {el: '.swiper-pagination', clickable: true,}, navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
+pagination: {el: '.swiper-pagination',}, navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
 
 <div class="div3 fade"><div class="swiper-wrapper"><!-- InstanceBeginEditable name="3" -->
-<div class="swiper-slide"><img src="/image/catalog/design/11.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/design/12.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/design/13.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/design/14.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/design/15.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/design/16.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/design/17.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/design/18.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/design/19.jpg"></div>
-<div class="swiper-slide"><img src="/image/catalog/design/20.jpg"></div><!-- InstanceEndEditable --></div>
+<div class="swiper-slide"><img src="/image/catalog/design/21.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/22.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/23.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/24.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/25.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/26.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/27.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/28.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/29.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/30.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/31.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/32.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/33.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/34.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/35.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/36.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/37.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/38.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/39.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/design/40.jpg"></div><!-- InstanceEndEditable --></div>
 <div class="swiper-pagination"></div><div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
 <script>var swiper = new Swiper('.fade', {effect: 'fade', autoplay: {delay: 2000,}, images: 
 [{src: "/image/catalog/product/pcsoftware/27.jpg", href: "/www/product/pcsoftware/avg"},
@@ -105,7 +125,7 @@ pagination: {el: '.swiper-pagination', clickable: true,}, navigation: {nextEl: '
 {src: "/image/catalog/product/pcsoftware/50.jpg", href: "/www/product/pcsoftware/videoplayer"},
 {src: "/image/catalog/product/pcsoftware/51.jpg", href: "/www/product/pcsoftware/internetdownloadmanager"},
 {src: "/image/catalog/product/pcsoftware/52.jpg", href: "/www/product/pcsoftware/intelligentsciencecalculator"}],
-pagination: {el: '.swiper-pagination', clickable: true,}, navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
+pagination: {el: '.swiper-pagination',}, navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
 
 <div class="div4"><canvas id="canvas" class="height475"><!-- InstanceBeginEditable name="4" --><script src="/scripts/3d/3dimages/1.js"></script><!-- InstanceEndEditable --></canvas></div>
 
@@ -129,7 +149,7 @@ cube_l = "/image/catalog/design/5.jpg";
 cube_u = "/image/catalog/design/6.jpg";
 cube_d = "/image/catalog/design/7.jpg";</script><!-- InstanceEndEditable --></div>
 
-<div class="div3 vr"><div class="swiper-wrapper"><!-- InstanceBeginEditable name="6" -->
+<div class="div3 scroll" id="2"><div class="swiper-wrapper"><!-- InstanceBeginEditable name="6" -->
 <div class="swiper-slide"><img src="/image/catalog/design/1.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/design/2.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/design/3.jpg"></div>
@@ -150,9 +170,32 @@ cube_d = "/image/catalog/design/7.jpg";</script><!-- InstanceEndEditable --></di
 <div class="swiper-slide"><img src="/image/catalog/design/18.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/design/19.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/design/20.jpg"></div><!-- InstanceEndEditable --></div>
-<div class="swiper-pagination"></div><div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
-<script>var swiper = new Swiper('.vr', {effect: 'slide', autoplay: {delay: 2000,}, 
-pagination: {el: '.swiper-pagination', clickable: true,}, navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
+<div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+<script>var swiper = new Swiper('.scroll', {effect: 'slide', autoplay: {delay: 2000,}, images: 
+[{src: "/image/catalog/product/pcsoftware/kaspersky/kav/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kav/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kav/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/4.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/5.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kts/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kts/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kts/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kes/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kms/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksc/1.gif"},
+{src: "/image/catalog/product/pcsoftware/eset/eav/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/ess/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/essp/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/eis/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/ems/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/efs/1.jpg"},],
+navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
 
 <div class="div4"><!-- InstanceBeginEditable name="7" -->
 <dl><dd><div><img src="/image/catalog/design/1.jpg"></div>
