@@ -21,7 +21,7 @@
 <div class="swiper-slide"><img src="/image/catalog/decorationdesign/20.jpg"></div></div>
 <div class="swiper-button-next"></div><div class="swiper-button-psrev"></div>
 
-<script>var swiper = new Swiper('.img100', {effect: 'slide', autoplay: {delay: 2000,}, slidesPerView: 4, images: 
+<script>var swiper = new Swiper('.img100', {effect: 'slide', autoplay: {delay: 2000,}, slidesPerView: 10, images: 
 [{src: "/image/catalog/decorationdesign/1.jpg"},
 {src: "/image/catalog/decorationdesign/2.jpg"},
 {src: "/image/catalog/decorationdesign/3.jpg"},
