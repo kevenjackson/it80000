@@ -1,15 +1,45 @@
-<ul class="marqueeleft">
-<li><a href="/index.php?route=product/category&path=1"><img src="/image/catalog/webdesign/4/1.gif"></a></li>
-<li><a href="/index.php?route=product/category&path=2"><img src="/image/catalog/webdesign/4/2.gif"></a></li>
-<li><a href="/index.php?route=product/category&path=3"><img src="/image/catalog/webdesign/4/3.gif"></a></li>
-<li><a href="/index.php?route=product/category&path=4"><img src="/image/catalog/webdesign/4/4.gif"></a></li>
-<li><a href="/index.php?route=product/category&path=5"><img src="/image/catalog/webdesign/4/5.gif"></a></li>
-<li><a href="/index.php?route=product/category&path=5"><img src="/image/catalog/webdesign/4/6.gif"></a></li>
-<li><a href="/index.php?route=product/category&path=5"><img src="/image/catalog/webdesign/4/7.gif"></a></li>
-<li><a href="/index.php?route=product/category&path=5"><img src="/image/catalog/webdesign/4/8.gif"></a></li>
-<li><a href="/index.php?route=product/category&path=6"><img src="/image/catalog/webdesign/4/9.gif"></a></li>
-<li><a href="/index.php?route=product/category&path=7"><img src="/image/catalog/webdesign/4/10.gif"></a></li>
-<li><a href="/index.php?route=product/category&path=8"><img src="/image/catalog/webdesign/4/11.gif"></a></li>
-<li><a href="/index.php?route=product/category&path=9"><img src="/image/catalog/webdesign/4/12.gif"></a></li></ul>
+<div class="swiper-wrapper">
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/1.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/2.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/3.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/4.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/5.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/6.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/7.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/8.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/9.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/10.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/11.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/12.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/13.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/14.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/15.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/16.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/17.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/18.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/19.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/decorationdesign/20.jpg"></div></div>
+<div class="swiper-button-next"></div><div class="swiper-button-psrev"></div>
 
-<script>$(".div4").slide({mainCell: ".marqueeleft", effect: "leftMarquee", vis: 10, interTime: 1,});</script>
+<script>var swiper = new Swiper('.img100', {effect: 'slide', autoplay: {delay: 2000,}, slidesPerView: 4, images: 
+[{src: "/image/catalog/decorationdesign/1.jpg"},
+{src: "/image/catalog/decorationdesign/2.jpg"},
+{src: "/image/catalog/decorationdesign/3.jpg"},
+{src: "/image/catalog/decorationdesign/4.jpg"},
+{src: "/image/catalog/decorationdesign/5.jpg"},
+{src: "/image/catalog/decorationdesign/6.jpg"},
+{src: "/image/catalog/decorationdesign/7.jpg"},
+{src: "/image/catalog/decorationdesign/8.jpg"},
+{src: "/image/catalog/decorationdesign/9.jpg"},
+{src: "/image/catalog/decorationdesign/10.jpg"},
+{src: "/image/catalog/decorationdesign/11.jpg"},
+{src: "/image/catalog/decorationdesign/12.jpg"},
+{src: "/image/catalog/decorationdesign/13.jpg"},
+{src: "/image/catalog/decorationdesign/14.jpg"},
+{src: "/image/catalog/decorationdesign/15.jpg"},
+{src: "/image/catalog/decorationdesign/16.jpg"},
+{src: "/image/catalog/decorationdesign/17.jpg"},
+{src: "/image/catalog/decorationdesign/18.jpg"},
+{src: "/image/catalog/decorationdesign/19.jpg"},
+{src: "/image/catalog/decorationdesign/20.jpg"},],
+navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script>

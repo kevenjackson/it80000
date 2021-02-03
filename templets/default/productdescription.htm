@@ -3,7 +3,6 @@
 <!-- InstanceBeginEditable name="doctitle" --><title>网站通用信息发布模板</title>
 
 <link rel="stylesheet" type="text/css" href="/cnstyle.css" /><!-- InstanceEndEditable -->
-<style>.div1{background: url(/banner.jpg) center no-repeat; background-size: 100% 100%; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');}</style>
 <script src="/scripts/vue/vue.js"></script>
 <script src="/scripts/vue/vueswiper.js"></script>
 <script src="/scripts/jquery/jquery.js"></script>
@@ -22,127 +21,93 @@
 <script src="/scripts/serviceqq/2.js"></script>
 <script src="/scripts/share/share.js"></script></head><body>
 
-<div class="div1"><!-- InstanceBeginEditable name="11" --><img src="/image/catalog/logo/logo/1.png"><!-- InstanceEndEditable --></div>
-<div class="div2" id="1"><script>$("#1").load("/1.php");</script></div>
+<div class="div1"><!-- InstanceBeginEditable name="logo" --><img src="/image/catalog/logo/logo/1.png"><!-- InstanceEndEditable --></div>
+<div class="div2" id="1"><!-- InstanceBeginEditable name="1" --><script>$("#1").load("/1.php");</script><!-- InstanceEndEditable --></div>
 
 <div class="div9"><dl class="w25">
 <dt><!-- InstanceBeginEditable name="left" -->栏目列表<!-- InstanceEndEditable --></dt>
-<!-- InstanceBeginEditable name="1" -->
-<dd><ul class="ul100">{dede:channel type='son' row=20}
-<li><a href='[field:typeurl/]'>[field:typename/]</a></li>
-{/dede:channel}</ul></dd>
-
-<dt>地区列表</dt>
-<dd>{dede:infolink}
-[field:linkallplace/] [field:nativeplace /]
-{/dede:infolink}</dd>
-
-<dt>信息分类</dt>
-<dd>{dede:infolink}
-[field:linkalltype/] [field:infotype /]
-{/dede:infolink}</dd>
-
-<dt>信息搜索</dt>
-<dd>{dede:infoguide}
-<form name='infoguide' method='get' action='/plus/list.php'>
-[field:nativeplace /]
-[field:infotype /]
-<input type='hidden' name='tid' value='[field:typeid /]' /><input type='hidden' name='channelid' value='-8' />关键字：
-<input type='text' name='keyword' value='' class="ipt-txt" />
-<div><input type='submit' value='搜索信息' class="btn-2" style='cursor:pointer' />&nbsp;
-<input type='button' value='发布信息' class="btn-2" onClick="location='/member/archives_sg_add.php?channelid=-8';" style='cursor:pointer' /></div></form>
-{/dede:infoguide}</dd>
-
-<dt>最新商品</dt>
-<dd><ul class="ul100">{dede:arclist type='image.' row=10 titlelen='100'}
-<li><a href="[field:arcurl/]"><img class="fadezoom" src="[field:litpic/]" /></a>
-<a href="[field:arcurl/]">[field:title/]</a>,<br>
-发布时间: [field:pubdate function="GetDateTimeMK(@me)"/],<br>
-人气: [field:click/],
-好评: [field:scores/],</li>
-{/dede:arclist}</ul></dd>
-
-<dt>推荐商品</dt>
-<dd><ul class="ul100">{dede:arclist type='image.' flag='c' row=10 titlelen='100'}
-<li><a href="[field:arcurl/]"><img class="fadezoom" src="[field:litpic/]" /></a>
-<a href="[field:arcurl/]">[field:title/]</a>,<br>
-发布时间: [field:pubdate function="GetDateTimeMK(@me)"/],<br>
-人气: [field:click/],
-好评: [field:scores/],</li>
-{/dede:arclist}</ul></dd>
-
-<dt>热销商品</dt>
-<dd><ul class="ul100">{dede:arclist type='image.' orderby='click' row=10 titlelen='100'}
-<li><a href="[field:arcurl/]"><img class="fadezoom" src="[field:litpic/]" /></a>
-<a href="[field:arcurl/]">[field:title/]</a>,<br>
-发布时间: [field:pubdate function="GetDateTimeMK(@me)"/],<br>
-人气: [field:click/],
-好评: [field:scores/],</li>
-{/dede:arclist}</ul></dd><!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="11" --><dd id="11"><script>$("#11").load("1.php");</script></dd><!-- InstanceEndEditable -->
 
 <dt>product photo show产品展示</dt>
-<dd><ul class="scroll"><!-- InstanceBeginEditable name="4" -->
-<li><a href="/www/product/pcsoftware/kaspersky/kav"><img src="/image/catalog/webdesign/4/1.gif"></a></li>
-<li><a href="/www/product/pcsoftware/kaspersky/kis"><img src="/image/catalog/webdesign/4/2.gif"></a></li>
-<li><a href="/www/product/pcsoftware/kaspersky/kmd"><img src="/image/catalog/webdesign/4/3.gif"></a></li>
-<li><a href="/www/product/pcsoftware/kaspersky/kts"><img src="/image/catalog/webdesign/4/4.gif"></a></li>
-<li><a href="/www/product/pcsoftware/kaspersky/ksos"><img src="/image/catalog/webdesign/4/5.gif"></a></li>
-<li><a href="/www/product/pcsoftware/kaspersky/kes"><img src="/image/catalog/webdesign/4/6.gif"></a></li>
-<li><a href="/www/product/pcsoftware/kaspersky/kms"><img src="/image/catalog/webdesign/4/7.gif"></a></li>
-<li><a href="/www/product/pcsoftware/kaspersky/ksc"><img src="/image/catalog/webdesign/4/8.gif"></a></li>
-<li><a href="/www/product/pcsoftware/eset/eav"><img src="/image/catalog/webdesign/4/9.gif"></a></li>
-<li><a href="/www/product/pcsoftware/eset/ess"><img src="/image/catalog/webdesign/4/10.gif"></a></li>
-<li><a href="/www/product/pcsoftware/eset/essp"><img src="/image/catalog/webdesign/4/11.gif"></a></li>
-<li><a href="/www/product/pcsoftware/eset/emds"><img src="/image/catalog/webdesign/4/12.gif"></a></li><!-- InstanceEndEditable --></ul>
-<script>$("dd").slide({mainCell: ".scroll", effect: "left", vis: 8, interTime: 2000,});</script></dd>
+<dd class="scroll" id="2"><div class="swiper-wrapper"><!-- InstanceBeginEditable name="2" -->
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kav/1.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kav/2.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kav/3.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kis/1.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kis/2.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kis/3.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kis/4.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kis/5.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kts/1.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kts/2.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kts/3.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/ksos/1.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/ksos/2.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/ksos/3.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kes/1.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/kms/1.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/kaspersky/ksc/1.gif"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/eset/eav/1.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/eset/ess/1.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/eset/essp/1.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/eset/eis/1.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/eset/ems/1.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/product/pcsoftware/eset/efs/1.jpg"></div><!-- InstanceEndEditable --></div>
+<div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+<script>var swiper = new Swiper('.scroll', {effect: 'slide', autoplay: {delay: 2000,}, slidesPerView: 1, images: 
+[{src: "/image/catalog/product/pcsoftware/kaspersky/kav/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kav/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kav/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/4.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/5.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kts/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kts/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kts/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kes/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kms/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksc/1.gif"},
+{src: "/image/catalog/product/pcsoftware/eset/eav/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/ess/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/essp/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/eis/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/ems/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/efs/1.jpg"},],
+navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></dd>
 
 <dt>3D-VR show三维全景图展示</dt>
 <dd><canvas id="canvas"></canvas></dd>
 
-<dd><canvas id="3d"></canvas>
+<dd><p class="height400" id="3d"></p>
 <script>if (isHTML5possible()) {creatViewer("3d", "/scripts/3d/3dconfig.js", "100%", "100%");}
 else {document.getElementById("nonhtml5").style.display = "inline";}
 window.onload = function() {document.getElementById("copyRight").style.display = "none";
-var aa = document.getElementById("copyRight");aa.innerHTML = "";}</script></dd></dl>
+var aa = document.getElementById("copyRight");aa.innerHTML = "";}</script>
+<!-- InstanceBeginEditable name="3" --><script>/*全景图地址，预览图使用横向或纵向条形图，全景图支持两种模式：立方体6面图，立方体条形图；*/
+preview = "/image/catalog/design/1.jpg";
+/*立方体6面图效果*/
+panoType = "cube";
+/*如果要使用立方体条形图效果，则使用下面的代码*/
+// panoType = "cubestrip";
+// cubestrip = "/image/catalog/product/1/8.jpg";
+cube_f = "/image/catalog/design/2.jpg";
+cube_r = "/image/catalog/design/3.jpg";
+cube_b = "/image/catalog/design/4.jpg";
+cube_l = "/image/catalog/design/5.jpg";
+cube_u = "/image/catalog/design/6.jpg";
+cube_d = "/image/catalog/design/7.jpg";</script><!-- InstanceEndEditable --></dd></dl>
 
 <dl class="w75 left5">
 <dt><!-- InstanceBeginEditable name="right" -->当前位置：{dede:field name='position'/}<!-- InstanceEndEditable --></dt>
-<!-- InstanceBeginEditable name="2" -->
-<dd><h1>{dede:field.title/}</h1>
-<ul><li class="productphoto"><img class="fadezoom" src={dede:field.litpic/}></li>
-<li>品牌：{dede:field.brand/},<br>
-卖家：{dede:field.linkman /} {dede:field.writer/},<br>
-电子邮箱：{dede:field.email/}<br>
-联系电话：{dede:field.tel /},<br>
-地址：{dede:field.address /},<br>
-商品来源：{dede:field.source/},<br>
-原产地：{dede:field.nativeplace /},<br>
-信息类型：{dede:field.infotype /},<br>
-商品原价：{dede:field.price/}元,<br>
-优惠价格：{dede:field.trueprice/}元,<br>
-单位：{dede:field.units/},<br>
-上架日期：{dede:field.pubdate function="MyDate('y-m-d H:i',@me)"/},<br>
-截止日期：{dede:field.endtime function="MyDate('Y-m-d H:m',@me)" /},<br>
-人气：<script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}"></script><br></li></ul>
-<script>$(".fadezoom").elevateZoom({});</script>
-
-<form id="formcar" name="formcar" method="post" action="{dede:field name='phpurl'/}/posttocar.php">
-<input type="hidden" name="id" value="{dede:field.id/}" />
-<input type="hidden" name="title" value="{dede:field.title/}" />
-<input type="hidden" name="price" value="{dede:field.trueprice/}" />
-<input type="hidden" name="units" value="{dede:field.units/}" />
-<button type="submit" class="buy"></button>
-<button onClick="{dede:field name='phpurl'/}/car.php" class="cart"></button></form></dd>
-
-{dede:field.body/}
-
-<p align="center">{dede:prenext get='pre'/}, {dede:prenext get='next'/}</p>
-
-<!--加载基于ajax的评论区内容，必须首先加载{dede:include file="global.cfg_cmsurl/}/include/dedeajax2.js"}脚本语言控制程序-->
-{dede:include file="ajaxfeedback.htm"}<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="12" --><dd id="12"><script>$("#12").load("2.php");</script></dd><!-- InstanceEndEditable -->
 <span id="13"><script>$("#13").load("3.php");</script></span></dl></div>
 
-<div class="div4 img100" id="4"><script>$("#4").load("/4.php");</script></div>
-<div class="div4 img100" id="5"><script>$("#5").load("/5.php");</script></div>
-<div class="div12" id="6"><script>$("#6").load("/6.php");</script>
+<div class="div4 img100" id="4"><!-- InstanceBeginEditable name="4" --><script>$("#4").load("/4.php");</script><!-- InstanceEndEditable --></div>
+<div class="div4 img100" id="5"><!-- InstanceBeginEditable name="5" --><script>$("#5").load("/5.php");</script><!-- InstanceEndEditable --></div>
+<div class="div12" id="6"><!-- InstanceBeginEditable name="6" --><script>$("#6").load("/6.php");</script><!-- InstanceEndEditable -->
 <?php require("/count.php"); ?><br></div></body><!-- InstanceEnd -->

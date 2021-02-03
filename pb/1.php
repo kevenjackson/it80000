@@ -12,8 +12,8 @@
 
 <li><a href="/www/development/businesscooperation">招商引资</a>
 <ul>
-<li><a href="/www/finance/1">甫背家族股权建设基金-投资人股东名录</a></li>
-<li><a href="/www/finance/1/finance.php">甫背家族股权建设基金-财务收支明细表</a></li>
+<li><a href="/document/pb/finance/2/1.htm">甫背家族股权建设基金-投资人股东名录</a></li>
+<li><a href="/document/pb/finance/2/2.htm">甫背家族股权建设基金-财务收支明细表</a></li>
 <li><a href="/www/payment">甫背家族股权建设基金-付款方式</a></li></ul></li>
 
 <li>甫背简介
@@ -27,7 +27,7 @@
 <ul>
 <li><a href="/www/introduce/2">甫背风采</a></li>
 <li><a href="/www/company">甫背企业风采</a></li>
-<li><a href="/www/scenery/businessstreet">甫背商业街</a></li>
+<li><a href="/www/building/businessstreet">甫背商业街</a></li>
 <li><a href="/www/education">甫背湖边书院（龙文书院）</a></li>
 <li><a href="/www/science">甫背科技馆</a></li>
 <li><a href="/www/art">乡村艺术</a></li></ul></li>
@@ -42,32 +42,6 @@
 <li><a href="/www/scenery/orchard">甫背动植物生态果园</a></li>
 <li><a href="/www/scenery/vegetable">甫背蔬菜基地</a></li>
 <li><a href="/www/building/certerbusinessdistrict">甫背商业街</a></li></ul></li>
-
-<li>甫背家族事务
-<ul>
-<li><a href="/www/religionandcultural/ancestral">甫背陈家宗祠</a></li>
-<li><a href="/www/man/genealogy">甫背中华陈氏族谱</a></li>
-<li><a href="/www/man/biography">甫背中华陈氏族谱-人物影像族谱传记表</a></li>
-<li><a href="/www/man/contact">甫背家族通讯录</a></li>
-<li><a href="/document/pb/finance/1/1.htm">甫背家族总帐户-财务收支明细表</a></li>
-<li><a href="/document/pb/finance/1/2.htm">甫背家族福利基金-财务收支明细表</a></li>
-<li><a href="/document/pb/finance/1/3.htm">甫背拆除空心房工程款-财务收支明细表</a></li>
-<li><a href="/document/pb/finance/1/4.htm">甫背西湖广场大坪硬化工程项目-财务收支明细表</a></li>
-<li><a href="/document/pb/finance/1/5.htm">甫背龙灯项目-财务收支明细表</a></li>
-<li><a href="/document/pb/finance/3">甫背家族互助基金-投资人股东名录</a></li>
-<li><a href="/document/pb/finance/3/2.htm">甫背家族互助基金-财务收支明细表</a></li>
-<li><a href="/document/pb/finance/3/3.htm">甫背家族互助基金-股东年度分红表</a></li>
-<li><a href="/www/payment">甫背家族互助基金-付款方式</a></li></ul></li>
-
-<li>微信公众平台
-<ul>
-<li><a href="/www/wechat">微信公众号 google0210<br><img src="/image/catalog/logo/wechat/account/pb/1.gif"></a></li></ul></li>
-
-<li><a href="/bbs">甫背发展论坛</a></li>
-
-<li><a href="/www/man/talentedperson">人杰地灵人才辈出</a></li>
-
-<li><a href="/www/blog">微博</a>
 
 <li>甫背商城
 <ul>
@@ -95,6 +69,32 @@
 <li>微信商城
 <ul><li><a href="/www/wechat"><img src="/image/catalog/logo/wechat/1.gif"></a></li></ul></li>
 
-<li><a href="/www/development/businesscooperation">加盟合作</a></li>
+<li><a href="/www/product/foodstuffs">甫背特产</a></li>
+
+<li>甫背家族事务
+<ul>
+<li><a href="/www/religionandcultural/ancestral">甫背陈家宗祠</a></li>
+<li><a href="/www/man/genealogy">甫背中华陈氏族谱</a></li>
+<li><a href="/www/man/biography">甫背中华陈氏族谱-人物影像族谱传记表</a></li>
+<li><a href="/www/man/contact">甫背家族通讯录</a></li>
+<li><a href="/document/pb/finance/1/1.htm">甫背家族总帐户-财务收支明细表</a></li>
+<li><a href="/document/pb/finance/1/2.htm">甫背家族福利基金-财务收支明细表</a></li>
+<li><a href="/document/pb/finance/1/3.htm">甫背拆除空心房工程款-财务收支明细表</a></li>
+<li><a href="/document/pb/finance/1/4.htm">甫背西湖广场大坪硬化工程项目-财务收支明细表</a></li>
+<li><a href="/document/pb/finance/1/5.htm">甫背龙灯项目-财务收支明细表</a></li>
+<li><a href="/document/pb/finance/3">甫背家族互助基金-投资人股东名录</a></li>
+<li><a href="/document/pb/finance/3/2.htm">甫背家族互助基金-财务收支明细表</a></li>
+<li><a href="/document/pb/finance/3/3.htm">甫背家族互助基金-股东年度分红表</a></li>
+<li><a href="/www/payment">甫背家族互助基金-付款方式</a></li></ul></li>
+
+<li>微信公众平台
+<ul>
+<li><a href="/www/wechat">微信公众号 google0210<br><img src="/image/catalog/logo/wechat/account/pb/1.gif"></a></li></ul></li>
+
+<li><a href="/bbs">甫背发展论坛</a></li>
+
+<li><a href="/www/man/talentedperson">人杰地灵人才辈出</a></li>
+
+<li><a href="/www/blog">微博</a>
 
 <li><a href="/member/login.php">注册登陆</a></li></ul>
