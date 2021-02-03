@@ -1,23 +1,45 @@
-<ul class="marqueeleft">
-<li><a href="/www/design"><img src="/image/catalog/design/1.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/2.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/3.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/4.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/5.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/6.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/7.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/8.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/9.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/10.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/11.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/12.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/13.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/14.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/15.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/16.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/17.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/18.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/19.jpg"></a></li>
-<li><a href="/www/design"><img src="/image/catalog/design/20.jpg"></a></li></ul>
+<div class="swiper-wrapper">
+<div class="swiper-slide"><img src="/image/catalog/car/1.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/2.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/3.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/4.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/5.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/6.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/7.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/8.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/9.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/10.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/11.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/12.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/13.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/14.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/15.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/16.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/17.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/18.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/19.jpg"></div>
+<div class="swiper-slide"><img src="/image/catalog/car/20.jpg"></div></div>
+<div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
 
-<script>$(".div4").slide({mainCell: ".marqueeleft", effect: "leftMarquee", vis: 10, interTime: 1,});</script>
+<script>var swiper = new Swiper('.img100', {effect: 'slide', autoplay: {delay: 2000,}, slidesPerView: 4, images: 
+[{src: "/image/catalog/car/1.jpg"},
+{src: "/image/catalog/car/2.jpg"},
+{src: "/image/catalog/car/3.jpg"},
+{src: "/image/catalog/car/4.jpg"},
+{src: "/image/catalog/car/5.jpg"},
+{src: "/image/catalog/car/6.jpg"},
+{src: "/image/catalog/car/7.jpg"},
+{src: "/image/catalog/car/8.jpg"},
+{src: "/image/catalog/car/9.jpg"},
+{src: "/image/catalog/car/10.jpg"},
+{src: "/image/catalog/car/11.jpg"},
+{src: "/image/catalog/car/12.jpg"},
+{src: "/image/catalog/car/13.jpg"},
+{src: "/image/catalog/car/14.jpg"},
+{src: "/image/catalog/car/15.jpg"},
+{src: "/image/catalog/car/16.jpg"},
+{src: "/image/catalog/car/17.jpg"},
+{src: "/image/catalog/car/18.jpg"},
+{src: "/image/catalog/car/19.jpg"},
+{src: "/image/catalog/car/20.jpg"},],
+navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script>

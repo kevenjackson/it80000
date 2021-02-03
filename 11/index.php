@@ -74,7 +74,7 @@
 {src: "/image/catalog/product/pcsoftware/24.jpg", href: "/www/product/pcsoftware/eset/eis"},
 {src: "/image/catalog/product/pcsoftware/25.jpg", href: "/www/product/pcsoftware/eset/eis"},
 {src: "/image/catalog/product/pcsoftware/26.jpg", href: "/www/product/pcsoftware/eset/ems"}],
-pagination: {el: '.swiper-pagination', clickable: true,}, navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
+pagination: {el: '.swiper-pagination',}, navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
 
 <div class="div3 fade"><div class="swiper-wrapper"><!-- InstanceBeginEditable name="3" -->
 <div class="swiper-slide"><img src="/image/catalog/investment/21.jpg"></div>
@@ -125,7 +125,7 @@ pagination: {el: '.swiper-pagination', clickable: true,}, navigation: {nextEl: '
 {src: "/image/catalog/product/pcsoftware/50.jpg", href: "/www/product/pcsoftware/videoplayer"},
 {src: "/image/catalog/product/pcsoftware/51.jpg", href: "/www/product/pcsoftware/internetdownloadmanager"},
 {src: "/image/catalog/product/pcsoftware/52.jpg", href: "/www/product/pcsoftware/intelligentsciencecalculator"}],
-pagination: {el: '.swiper-pagination', clickable: true,}, navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
+pagination: {el: '.swiper-pagination',}, navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
 
 <div class="div4"><canvas id="canvas" class="height475"><!-- InstanceBeginEditable name="4" --><script src="/scripts/3d/3dimages/investment.js"></script><!-- InstanceEndEditable --></canvas></div>
 
@@ -149,7 +149,7 @@ cube_l = "/image/catalog/investment/5.jpg";
 cube_u = "/image/catalog/investment/6.jpg";
 cube_d = "/image/catalog/investment/7.jpg";</script><!-- InstanceEndEditable --></div>
 
-<div class="div3 vr"><div class="swiper-wrapper"><!-- InstanceBeginEditable name="6" -->
+<div class="div3 scroll" id="2"><div class="swiper-wrapper"><!-- InstanceBeginEditable name="6" -->
 <div class="swiper-slide"><img src="/image/catalog/investment/1.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/investment/2.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/investment/3.jpg"></div>
@@ -190,9 +190,32 @@ cube_d = "/image/catalog/investment/7.jpg";</script><!-- InstanceEndEditable -->
 <div class="swiper-slide"><img src="/image/catalog/investment/38.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/investment/39.jpg"></div>
 <div class="swiper-slide"><img src="/image/catalog/investment/40.jpg"></div><!-- InstanceEndEditable --></div>
-<div class="swiper-pagination"></div><div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
-<script>var swiper = new Swiper('.vr', {effect: 'slide', autoplay: {delay: 2000,}, 
-pagination: {el: '.swiper-pagination', clickable: true,}, navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
+<div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+<script>var swiper = new Swiper('.scroll', {effect: 'slide', autoplay: {delay: 2000,}, images: 
+[{src: "/image/catalog/product/pcsoftware/kaspersky/kav/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kav/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kav/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/4.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kis/5.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kts/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kts/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kts/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/2.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksos/3.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kes/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/kms/1.gif"},
+{src: "/image/catalog/product/pcsoftware/kaspersky/ksc/1.gif"},
+{src: "/image/catalog/product/pcsoftware/eset/eav/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/ess/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/essp/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/eis/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/ems/1.jpg"},
+{src: "/image/catalog/product/pcsoftware/eset/efs/1.jpg"},],
+navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},});</script></div>
 
 <div class="div4"><!-- InstanceBeginEditable name="7" -->
 <dl><dd><div><img src="/image/catalog/design/1.jpg"></div>
