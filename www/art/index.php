@@ -3,7 +3,7 @@
 <!-- InstanceBeginEditable name="doctitle" --><title>original genuine Kaspersky anti-virus Kav 1y-1pc or device</title>
 
 <link rel="stylesheet" type="text/css" href="/cnstyle.css" />
-<style>.div1{background: url(/pb/banner.jpg) center no-repeat; background-size: 100% 100%; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');}</style>
+<style>.div1{background: url(/3/banner.jpg) center no-repeat; background-size: 100% 100%; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');}</style>
 <!-- InstanceEndEditable -->
 <script src="/scripts/vue/vue.js"></script>
 <script src="/scripts/vue/vueswiper.js"></script>
@@ -24,7 +24,7 @@
 <script src="/scripts/share/share.js"></script></head><body>
 
 <div class="div1"><!-- InstanceBeginEditable name="logo" --><img src="/image/catalog/logo/logo/1.png"><!-- InstanceEndEditable --></div>
-<div class="div2" id="1"><!-- InstanceBeginEditable name="1" --><script>$("#1").load("/pb/1.php");</script><!-- InstanceEndEditable --></div>
+<div class="div2" id="1"><!-- InstanceBeginEditable name="1" --><script>$("#1").load("/3/1.php");</script><!-- InstanceEndEditable --></div>
 
 <div class="div9"><dl class="w25">
 <dt><!-- InstanceBeginEditable name="left" -->Company公司简介<!-- InstanceEndEditable --></dt>
@@ -109,7 +109,7 @@ cube_d = "/image/catalog/design/7.jpg";</script><!-- InstanceEndEditable --></dd
 <!-- InstanceBeginEditable name="12" --><dd id="12"><script>$("#12").load("2.php");</script></dd><!-- InstanceEndEditable -->
 <span id="13"><script>$("#13").load("3.php");</script></span></dl></div>
 
-<div class="div4 img100" id="4"><!-- InstanceBeginEditable name="4" --><script>$("#4").load("/pb/4.php");</script><!-- InstanceEndEditable --></div>
-<div class="div4 img100" id="5"><!-- InstanceBeginEditable name="5" --><script>$("#5").load("/pb/5.php");</script><!-- InstanceEndEditable --></div>
-<div class="div12" id="6"><!-- InstanceBeginEditable name="6" --><script>$("#6").load("/pb/6.php");</script><!-- InstanceEndEditable -->
+<div class="div4 img100" id="4"><!-- InstanceBeginEditable name="4" --><script>$("#4").load("/3/4.php");</script><!-- InstanceEndEditable --></div>
+<div class="div4 img100" id="5"><!-- InstanceBeginEditable name="5" --><script>$("#5").load("/3/5.php");</script><!-- InstanceEndEditable --></div>
+<div class="div12" id="6"><!-- InstanceBeginEditable name="6" --><script>$("#6").load("/3/6.php");</script><!-- InstanceEndEditable -->
 <?php require("/count.php"); ?><br></div></body><!-- InstanceEnd -->
